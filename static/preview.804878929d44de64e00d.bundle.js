@@ -32462,9 +32462,9 @@ var Pagination = function Pagination(_ref) {
   var pages = (0, _range2.default)(1, max + 1);
 
   var firstPage = pages.slice(0, 1);
-  var beforePages = pages.slice(1, Math.max(1, currentValue - 3));
-  var currentPages = pages.slice(Math.max(1, currentValue - 3), Math.min(maxValue - 1, currentValue + 2));
-  var afterPages = pages.slice(Math.min(maxValue - 1, currentValue + 2), maxValue - 1);
+  var beforePages = pages.slice(1, Math.max(1, currentValue - 2));
+  var currentPages = pages.slice(Math.max(1, currentValue - 2), Math.min(maxValue - 1, currentValue + 1));
+  var afterPages = pages.slice(Math.min(maxValue - 1, currentValue + 1), maxValue - 1);
   var lastPage = pages.slice(1).slice(-1);
 
   return _react2.default.createElement(
@@ -37088,4 +37088,4 @@ module.exports = __webpack_require__(643);
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=preview.a10cec50d68da22ac42b.bundle.js.map
+//# sourceMappingURL=preview.804878929d44de64e00d.bundle.js.map
