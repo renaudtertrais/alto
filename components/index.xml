@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on Alto</title>
+    <link>/components/</link>
+    <description>Recent content in Components on Alto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/components/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alert</title>
+      <link>/components/alert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/components/alert/</guid>
+      <description>Alert !  Info! This is an informative message  X   !  Info! This is an informative message  X   !  Info! This is an informative message  X    &amp;lt;div class=&amp;#34;alert&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; ! &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__message&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Info!&amp;lt;/strong&amp;gt; This is an informative message &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__close&amp;#34;&amp;gt; X &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert alert--success&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; ! &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__message&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Info!&amp;lt;/strong&amp;gt; This is an informative message &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__close&amp;#34;&amp;gt; X &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert alert--danger&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; !</description>
+    </item>
+    
+    <item>
+      <title>Button</title>
+      <link>/components/button/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/components/button/</guid>
+      <description> Buttons, yo Base Solid Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Solid Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Outline Ouline Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34;&amp;gt;Ouline Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Flat Flat Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34;&amp;gt;Flat Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Inverse Inverse Outline Flat disabled   &amp;lt;div style=&amp;#34;background: #333C48; padding: 20px;&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34;&amp;gt;Inverse&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--inverse&amp;#34;&amp;gt;Outline&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--inverse&amp;#34;&amp;gt;Flat&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt;    Sizes Large Default Small  &amp;lt;button class=&amp;#34;Button Button--large&amp;#34;&amp;gt;Large&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--small&amp;#34;&amp;gt;Small&amp;lt;/button&amp;gt;    Block Default  &amp;lt;button class=&amp;#34;Button Button--block&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt;    </description>
+    </item>
+    
+    <item>
+      <title>Form</title>
+      <link>/components/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/components/form/</guid>
+      <description> Form, yo Label We&#39;ll never share your email with anyone else.  Password  Check me out   Submit   &amp;lt;form class=&amp;#34;form&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;input1&amp;#34;&amp;gt;Label&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;input1&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;input1&amp;#34; aria-describedby=&amp;#34;emailHelp&amp;#34; placeholder=&amp;#34;Enter email&amp;#34;&amp;gt; &amp;lt;small id=&amp;#34;emailHelp&amp;#34; class=&amp;#34;form-text text-muted&amp;#34;&amp;gt;We&amp;#39;ll never share your email with anyone else.&amp;lt;/small&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputPassword1&amp;#34;&amp;gt;Password&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleInputPassword1&amp;#34; placeholder=&amp;#34;Password&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34;&amp;gt; Check me out &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=&amp;#34;submit&amp;#34; class=&amp;#34;btn btn-primary&amp;#34;&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;    </description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>/components/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/components/lists/</guid>
+      <description>Hello. Interactive list    Item  Extra Information      Active Item  Extra Information       Item  Extra Information       Item  Extra Information       Item  Extra Information     </description>
+    </item>
+    
+  </channel>
+</rss>
