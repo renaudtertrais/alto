@@ -3,58 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/components/alert/</loc>
+    <loc>/alto/components/alert/</loc>
   </url>
   
   <url>
-    <loc>/components/button/</loc>
+    <loc>/alto/components/button/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/alto/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/components/</loc>
+    <loc>/alto/components/</loc>
   </url>
   
   <url>
-    <loc>/utilities/</loc>
+    <loc>/alto/utilities/</loc>
   </url>
   
   <url>
-    <loc>/components/form/</loc>
+    <loc>/alto/components/form/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/alto/</loc>
   </url>
   
   <url>
-    <loc>/components/lists/</loc>
+    <loc>/alto/components/lists/</loc>
   </url>
   
   <url>
-    <loc>/releases/</loc>
+    <loc>/alto/releases/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/releases/</loc>
+    <loc>/alto/releases/</loc>
   </url>
   
   <url>
-    <loc>/utilities/spacing/</loc>
+    <loc>/alto/utilities/spacing/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/alto/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/utilities/typography/</loc>
+    <loc>/alto/utilities/typography/</loc>
   </url>
   
 </urlset>

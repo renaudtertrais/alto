@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home Page on Alto</title>
-    <link>/</link>
+    <link>/alto/</link>
     <description>Recent content in Home Page on Alto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/alto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alert</title>
-      <link>/components/alert/</link>
+      <link>/alto/components/alert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/components/alert/</guid>
+      <guid>/alto/components/alert/</guid>
       <description>Alert !  Info! This is an informative message  X   !  Info! This is an informative message  X   !  Info! This is an informative message  X    &amp;lt;div class=&amp;#34;alert&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; ! &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__message&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Info!&amp;lt;/strong&amp;gt; This is an informative message &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__close&amp;#34;&amp;gt; X &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert alert--success&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; ! &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__message&amp;#34;&amp;gt; &amp;lt;strong&amp;gt;Info!&amp;lt;/strong&amp;gt; This is an informative message &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert__close&amp;#34;&amp;gt; X &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;alert alert--danger&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;alert__icon&amp;#34;&amp;gt; !</description>
     </item>
     
     <item>
       <title>Button</title>
-      <link>/components/button/</link>
+      <link>/alto/components/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/components/button/</guid>
+      <guid>/alto/components/button/</guid>
       <description> Buttons, yo Base Solid Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Solid Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Outline Ouline Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34;&amp;gt;Ouline Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Flat Flat Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34;&amp;gt;Flat Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Inverse Inverse Outline Flat disabled   &amp;lt;div style=&amp;#34;background: #333C48; padding: 20px;&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34;&amp;gt;Inverse&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--inverse&amp;#34;&amp;gt;Outline&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--inverse&amp;#34;&amp;gt;Flat&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt;    Sizes Large Default Small  &amp;lt;button class=&amp;#34;Button Button--large&amp;#34;&amp;gt;Large&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--small&amp;#34;&amp;gt;Small&amp;lt;/button&amp;gt;    Block Default  &amp;lt;button class=&amp;#34;Button Button--block&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt;    </description>
     </item>
     
     <item>
       <title>Form</title>
-      <link>/components/form/</link>
+      <link>/alto/components/form/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/components/form/</guid>
+      <guid>/alto/components/form/</guid>
       <description> Form, yo Label We&#39;ll never share your email with anyone else.  Password  Check me out   Submit   &amp;lt;form class=&amp;#34;form&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;input1&amp;#34;&amp;gt;Label&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;input1&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;input1&amp;#34; aria-describedby=&amp;#34;emailHelp&amp;#34; placeholder=&amp;#34;Enter email&amp;#34;&amp;gt; &amp;lt;small id=&amp;#34;emailHelp&amp;#34; class=&amp;#34;form-text text-muted&amp;#34;&amp;gt;We&amp;#39;ll never share your email with anyone else.&amp;lt;/small&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputPassword1&amp;#34;&amp;gt;Password&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleInputPassword1&amp;#34; placeholder=&amp;#34;Password&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34;&amp;gt; Check me out &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=&amp;#34;submit&amp;#34; class=&amp;#34;btn btn-primary&amp;#34;&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;    </description>
     </item>
     
     <item>
       <title>Lists</title>
-      <link>/components/lists/</link>
+      <link>/alto/components/lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/components/lists/</guid>
+      <guid>/alto/components/lists/</guid>
       <description>Hello. Interactive list    Item  Extra Information      Active Item  Extra Information       Item  Extra Information       Item  Extra Information       Item  Extra Information     </description>
     </item>
     
     <item>
       <title>Releases</title>
-      <link>/releases/</link>
+      <link>/alto/releases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/releases/</guid>
+      <guid>/alto/releases/</guid>
       <description>Releases  I am content on the Releases </description>
     </item>
     
     <item>
       <title>Spacing</title>
-      <link>/utilities/spacing/</link>
+      <link>/alto/utilities/spacing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/utilities/spacing/</guid>
+      <guid>/alto/utilities/spacing/</guid>
       <description>Spacing! Margins and Paddings.
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; // Just a lil’ script to show off that inline JS gets highlighted window.console &amp;amp;&amp;amp; console.log(&amp;#39;foo&amp;#39;); &amp;lt;/script&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;link rel=&amp;#34;shortcut icon&amp;#34; href=&amp;#34;favicon.png&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Prism&amp;lt;/title&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;style.css&amp;#34; /&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;themes/prism.css&amp;#34; data-noprefix /&amp;gt; &amp;lt;script src=&amp;#34;prefixfree.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt;var _gaq = [[&amp;#39;_setAccount&amp;#39;, &amp;#39;UA-33746269-1&amp;#39;], [&amp;#39;_trackPageview&amp;#39;]];&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;#34;https://www.google-analytics.com/ga.js&amp;#34; async&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;   @import url(http://fonts.googleapis.com/css?family=Questrial); @import url(http://fonts.googleapis.com/css?family=Arvo); @font-face { src: url(http://lea.verou.me/logo.otf); font-family: &amp;#39;LeaVerou&amp;#39;; } /* Shared styles */ section h1, #features li strong, header h2, footer p { font: 100% Rockwell, Arvo, serif; } /* Styles */ * { margin: 0; padding: 0; font-weight: normal; } body { font: 100%/1.</description>
     </item>
     
     <item>
       <title>Typography</title>
-      <link>/utilities/typography/</link>
+      <link>/alto/utilities/typography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/utilities/typography/</guid>
+      <guid>/alto/utilities/typography/</guid>
       <description>Typography I&amp;rsquo;m typography
 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6  &amp;lt;h1 class=&amp;#34;text--h1&amp;#34;&amp;gt;Heading 1&amp;lt;/h1&amp;gt; &amp;lt;h2 class=&amp;#34;text--h2&amp;#34;&amp;gt;Heading 2&amp;lt;/h2&amp;gt; &amp;lt;h3 class=&amp;#34;text--h3&amp;#34;&amp;gt;Heading 3&amp;lt;/h3&amp;gt; &amp;lt;h4 class=&amp;#34;text--h4&amp;#34;&amp;gt;Heading 4&amp;lt;/h4&amp;gt; &amp;lt;h5 class=&amp;#34;text--h5&amp;#34;&amp;gt;Heading 5&amp;lt;/h5&amp;gt; &amp;lt;h6 class=&amp;#34;text--h6&amp;#34;&amp;gt;Heading 6&amp;lt;/h6&amp;gt;    Default link  &amp;lt;a href=&amp;#34;#&amp;#34; class=&amp;#34;link&amp;#34;&amp;gt;Default link&amp;lt;/a&amp;gt;    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
