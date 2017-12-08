@@ -23,7 +23,8 @@
 
     <header class="navbar" role="banner">
 
-    <a class="navbar__brand navbar__link" href="/alto/">ALTO</a>
+    <a class="navbar__brand" href="/alto/"><svg class="alto-logo" viewBox="0 0 181 50" xmlns="http://www.w3.org/2000/svg"><path d="M1.318 49.306c-1.04 0-1.595-.903-1.179-1.806L21.226.764C21.434.347 21.78 0 22.405 0h.693c.625 0 .972.347 1.18.764L45.226 47.5c.416.903-.14 1.806-1.18 1.806m-39.739 0c7.244-8.437 11.75-11.047 13.516-7.832 1.639 2.983 5.137-11.821 9.152-6.993 1.549 1.863 6.356 6.804 14.423 14.825C37.999 41.736 26.358 17.569 22.96 10h-.555L4.307 49.306zm54.385-1.32c0 .695.555 1.32 1.318 1.32h24c.763 0 1.318-.625 1.318-1.32v-2.014c0-.694-.555-1.32-1.318-1.32H64.033V2.015c0-.695-.624-1.32-1.318-1.32H60.01c-.763 0-1.318.625-1.318 1.32v45.972zm43.778 0c0 .695.625 1.32 1.318 1.32h2.636c.694 0 1.318-.625 1.318-1.32V5.347h12.07c.762 0 1.317-.625 1.317-1.32V2.015c0-.695-.555-1.32-1.318-1.32h-29.41c-.763 0-1.318.625-1.318 1.32v2.014c0 .694.555 1.32 1.318 1.32h12.07v42.638zm28.657-22.917C131.127 11.181 142.157 0 156.03 0 169.902 0 181 11.18 181 25.07 181 38.957 169.902 50 156.029 50s-24.902-11.042-24.902-24.93zm4.856 0c0 11.042 9.017 20.07 20.046 20.07s20.116-9.028 20.116-20.07c0-11.041-9.087-20.208-20.116-20.208s-20.046 9.167-20.046 20.208z" fill-rule="evenodd"/></svg>
+</a>
 
     <ul class="navbar__links"><li class="">
           <a class="navbar__link" href="/alto/">Home</a>
@@ -45,45 +46,75 @@
 
 <h1 id="buttons-yo">Buttons, yo</h1>
 
+<div class="alto-demo">
+
+<button class="button">Primary Action</button>
+<button class="button button--outline">Secondary Action</button>
+<button class="button button--flat">Tertiary Action</button>
+
+
+</div>
+
+
 <h2 id="base">Base</h2>
 
 <div class="alto-example">
-  <div class="alto-example__demo">
+  <div class="alto-example__demo ">
     
-<button class="Button">Solid Button</button>
-<button class="Button Button--success">Success</button>
-<button class="Button Button--danger">Danger</button>
-<button class="Button" disabled="disabled">disabled</button>
+<button class="button">Solid Button</button>
+<button class="button button--success">Success</button>
+<button class="button button--danger">Danger</button>
+<button class="button" disabled>Disabled</button>
 
   </div>
   <div class="alto-example__code">
 <pre class="language-markup"><code class="language-markup">
-&lt;button class=&#34;Button&#34;&gt;Solid Button&lt;/button&gt;
-&lt;button class=&#34;Button Button--success&#34;&gt;Success&lt;/button&gt;
-&lt;button class=&#34;Button Button--danger&#34;&gt;Danger&lt;/button&gt;
-&lt;button class=&#34;Button&#34; disabled=&#34;disabled&#34;&gt;disabled&lt;/button&gt;
+&lt;button class=&#34;button&#34;&gt;Solid Button&lt;/button&gt;
+&lt;button class=&#34;button button--success&#34;&gt;Success&lt;/button&gt;
+&lt;button class=&#34;button button--danger&#34;&gt;Danger&lt;/button&gt;
+&lt;button class=&#34;button&#34; disabled&gt;Disabled&lt;/button&gt;
 </code></pre>
   </div>
 </div>
 
 
-<h2 id="outline">Outline</h2>
+<h2 id="sizes">Sizes</h2>
 
 <p><div class="alto-example">
-  <div class="alto-example__demo">
+  <div class="alto-example__demo ">
     
-<button class="Button Button--outline">Ouline Button</button>
-<button class="Button Button--outline Button--success">Success</button>
-<button class="Button Button--outline Button--danger">Danger</button>
-<button class="Button Button--outline" disabled="disabled">disabled</button>
+<button class="button button--small">Small Button</button>
+<button class="button">Default Button</button>
+<button class="button button--large">Large Button</button>
 
   </div>
   <div class="alto-example__code">
 <pre class="language-markup"><code class="language-markup">
-&lt;button class=&#34;Button Button--outline&#34;&gt;Ouline Button&lt;/button&gt;
-&lt;button class=&#34;Button Button--outline Button--success&#34;&gt;Success&lt;/button&gt;
-&lt;button class=&#34;Button Button--outline Button--danger&#34;&gt;Danger&lt;/button&gt;
-&lt;button class=&#34;Button Button--outline&#34; disabled=&#34;disabled&#34;&gt;disabled&lt;/button&gt;
+&lt;button class=&#34;button button--small&#34;&gt;Small Button&lt;/button&gt;
+&lt;button class=&#34;button&#34;&gt;Default Button&lt;/button&gt;
+&lt;button class=&#34;button button--large&#34;&gt;Large Button&lt;/button&gt;
+</code></pre>
+  </div>
+</div>
+</p>
+
+<h2 id="outline">Outline</h2>
+
+<p><div class="alto-example">
+  <div class="alto-example__demo ">
+    
+<button class="button button--outline">Ouline Button</button>
+<button class="button button--outline button--success">Success</button>
+<button class="button button--outline button--danger">Danger</button>
+<button class="button button--outline" disabled>Disabled</button>
+
+  </div>
+  <div class="alto-example__code">
+<pre class="language-markup"><code class="language-markup">
+&lt;button class=&#34;button button--outline&#34;&gt;Ouline Button&lt;/button&gt;
+&lt;button class=&#34;button button--outline button--success&#34;&gt;Success&lt;/button&gt;
+&lt;button class=&#34;button button--outline button--danger&#34;&gt;Danger&lt;/button&gt;
+&lt;button class=&#34;button button--outline&#34; disabled&gt;Disabled&lt;/button&gt;
 </code></pre>
   </div>
 </div>
@@ -91,83 +122,43 @@
 
 <h2 id="flat">Flat</h2>
 
+<p>Flat buttons have less horizontal padding than other buttons, so they do not feel so far apart when placed inline.</p>
+
 <p><div class="alto-example">
-  <div class="alto-example__demo">
+  <div class="alto-example__demo ">
     
-<button class="Button Button--flat">Flat Button</button>
-<button class="Button Button--flat Button--success">Success</button>
-<button class="Button Button--flat Button--danger">Danger</button>
-<button class="Button Button--flat" disabled="disabled">disabled</button>
+<button class="button button--flat">Flat Button</button>
+<button class="button button--flat button--success">Success</button>
+<button class="button button--flat button--danger">Danger</button>
+<button class="button button--flat" disabled>Disabled</button>
 
   </div>
   <div class="alto-example__code">
 <pre class="language-markup"><code class="language-markup">
-&lt;button class=&#34;Button Button--flat&#34;&gt;Flat Button&lt;/button&gt;
-&lt;button class=&#34;Button Button--flat Button--success&#34;&gt;Success&lt;/button&gt;
-&lt;button class=&#34;Button Button--flat Button--danger&#34;&gt;Danger&lt;/button&gt;
-&lt;button class=&#34;Button Button--flat&#34; disabled=&#34;disabled&#34;&gt;disabled&lt;/button&gt;
+&lt;button class=&#34;button button--flat&#34;&gt;Flat Button&lt;/button&gt;
+&lt;button class=&#34;button button--flat button--success&#34;&gt;Success&lt;/button&gt;
+&lt;button class=&#34;button button--flat button--danger&#34;&gt;Danger&lt;/button&gt;
+&lt;button class=&#34;button button--flat&#34; disabled&gt;Disabled&lt;/button&gt;
 </code></pre>
   </div>
 </div>
 </p>
 
-<h2 id="inverse">Inverse</h2>
+<h2 id="white">White</h2>
 
 <p><div class="alto-example">
-  <div class="alto-example__demo">
+  <div class="alto-example__demo alto-demo--dark-background">
     
-<div style="background: #333C48; padding: 20px;">
-  <button class="Button Button--inverse">Inverse</button>
-  <button class="Button Button--outline Button--inverse">Outline</button>
-  <button class="Button Button--flat Button--inverse">Flat</button>
-  <button class="Button Button--inverse" disabled="disabled">disabled</button>
-</div>
+<button class="button button--white">White Button</button>
+<button class="button button--white button--outline">White Outline Button</button>
+<button class="button button--white button--flat">White Flat Button</button>
 
   </div>
   <div class="alto-example__code">
 <pre class="language-markup"><code class="language-markup">
-&lt;div style=&#34;background: #333C48; padding: 20px;&#34;&gt;
-  &lt;button class=&#34;Button Button--inverse&#34;&gt;Inverse&lt;/button&gt;
-  &lt;button class=&#34;Button Button--outline Button--inverse&#34;&gt;Outline&lt;/button&gt;
-  &lt;button class=&#34;Button Button--flat Button--inverse&#34;&gt;Flat&lt;/button&gt;
-  &lt;button class=&#34;Button Button--inverse&#34; disabled=&#34;disabled&#34;&gt;disabled&lt;/button&gt;
-&lt;/div&gt;
-</code></pre>
-  </div>
-</div>
-</p>
-
-<h2 id="sizes">Sizes</h2>
-
-<p><div class="alto-example">
-  <div class="alto-example__demo">
-    
-<button class="Button Button--large">Large</button>
-<button class="Button">Default</button>
-<button class="Button Button--small">Small</button>
-
-  </div>
-  <div class="alto-example__code">
-<pre class="language-markup"><code class="language-markup">
-&lt;button class=&#34;Button Button--large&#34;&gt;Large&lt;/button&gt;
-&lt;button class=&#34;Button&#34;&gt;Default&lt;/button&gt;
-&lt;button class=&#34;Button Button--small&#34;&gt;Small&lt;/button&gt;
-</code></pre>
-  </div>
-</div>
-</p>
-
-<h2 id="block">Block</h2>
-
-<p><div class="alto-example">
-  <div class="alto-example__demo">
-    
-<button class="Button Button--block">Default</button>
-
-  </div>
-  <div class="alto-example__code">
-<pre class="language-markup"><code class="language-markup">
-&lt;button class=&#34;Button Button--block&#34;&gt;Default&lt;/button&gt;
+&lt;button class=&#34;button button--white&#34;&gt;White Button&lt;/button&gt;
+&lt;button class=&#34;button button--white button--outline&#34;&gt;White Outline Button&lt;/button&gt;
+&lt;button class=&#34;button button--white button--flat&#34;&gt;White Flat Button&lt;/button&gt;
 </code></pre>
   </div>
 </div>

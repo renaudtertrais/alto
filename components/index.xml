@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/alto/components/button/</guid>
-      <description> Buttons, yo Base Solid Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Solid Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Outline Ouline Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34;&amp;gt;Ouline Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Flat Flat Button Success Danger disabled  &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34;&amp;gt;Flat Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt;    Inverse Inverse Outline Flat disabled   &amp;lt;div style=&amp;#34;background: #333C48; padding: 20px;&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34;&amp;gt;Inverse&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--outline Button--inverse&amp;#34;&amp;gt;Outline&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--flat Button--inverse&amp;#34;&amp;gt;Flat&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--inverse&amp;#34; disabled=&amp;#34;disabled&amp;#34;&amp;gt;disabled&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt;    Sizes Large Default Small  &amp;lt;button class=&amp;#34;Button Button--large&amp;#34;&amp;gt;Large&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;Button Button--small&amp;#34;&amp;gt;Small&amp;lt;/button&amp;gt;    Block Default  &amp;lt;button class=&amp;#34;Button Button--block&amp;#34;&amp;gt;Default&amp;lt;/button&amp;gt;    </description>
+      <description>Buttons, yo Primary Action Secondary Action Tertiary Action  Base Solid Button Success Danger Disabled  &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Solid Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt;    Sizes Small Button Default Button Large Button  &amp;lt;button class=&amp;#34;button button--small&amp;#34;&amp;gt;Small Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Default Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--large&amp;#34;&amp;gt;Large Button&amp;lt;/button&amp;gt;    Outline Ouline Button Success Danger Disabled  &amp;lt;button class=&amp;#34;button button--outline&amp;#34;&amp;gt;Ouline Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--outline button--success&amp;#34;&amp;gt;Success&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--outline button--danger&amp;#34;&amp;gt;Danger&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--outline&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt;    Flat Flat buttons have less horizontal padding than other buttons, so they do not feel so far apart when placed inline.</description>
     </item>
     
     <item>
@@ -44,6 +44,17 @@
       
       <guid>/alto/components/lists/</guid>
       <description>Hello. Interactive list    Item  Extra Information      Active Item  Extra Information       Item  Extra Information       Item  Extra Information       Item  Extra Information     </description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>/alto/components/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/lists/</guid>
+      <description>Hello.
+Interactive list
+   Item 1  Extra Information       Item 2  Extra Information       Item 3  Extra Information       Item 4  Extra Information       Item 5  Extra Information     </description>
     </item>
     
   </channel>
