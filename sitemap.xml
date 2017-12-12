@@ -17,10 +17,7 @@
   
   <url>
     <loc>/alto/components/</loc>
-  </url>
-  
-  <url>
-    <loc>/alto/utilities/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -36,7 +33,8 @@
   </url>
   
   <url>
-    <loc>/alto/components/lists/</loc>
+    <loc>/alto/patterns/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -49,7 +47,7 @@
   </url>
   
   <url>
-    <loc>/alto/utilities/spacing/</loc>
+    <loc>/alto/patterns/spacing/</loc>
   </url>
   
   <url>
@@ -58,7 +56,7 @@
   </url>
   
   <url>
-    <loc>/alto/utilities/typography/</loc>
+    <loc>/alto/patterns/typography/</loc>
   </url>
   
 </urlset>

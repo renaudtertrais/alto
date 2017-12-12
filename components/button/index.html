@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/alto/css/app.css">
 
 
+
 </head>
 <body>
 
@@ -29,9 +30,9 @@
     <ul class="navbar__links"><li class="">
           <a class="navbar__link" href="/alto/">Home</a>
       </li><li class="">
-          <a class="navbar__link" href="/alto/components/">Components</a>
+          <a class="navbar__link" href="/alto/components/button/">Docs</a>
       </li><li class="">
-          <a class="navbar__link" href="/alto/utilities/">Utilities</a>
+          <a class="navbar__link" href="/alto/releases/">Releases</a>
       </li>
 
     </ul>
@@ -39,19 +40,109 @@
 </header>
 
 
-    <main class="content-container" role="main">
+    <div class="flex--row">
+
+      
+        <nav class="sidenav--page">
+  <ul class="sidenav--list">
+    
+    
+      
+
+        <li class="sub-menu active">
+          <button class="sidenav__group-title">
+            
+            <span>Components</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/components/alert/" class="sidenav__link"> Alert </a> </li>
+            
+              <li><a href="/alto/components/button/" class="sidenav__link active"> Button </a> </li>
+            
+              <li><a href="/alto/components/form/" class="sidenav__link"> Form </a> </li>
+            
+              <li><a href="/alto/components/lists/" class="sidenav__link"> Lists </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+      
+      </li>
+    
+      
+
+        <li class="sub-menu">
+          <button class="sidenav__group-title">
+            
+            <span>patterns</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/patterns/spacing/" class="sidenav__link"> Spacing </a> </li>
+            
+              <li><a href="/alto/patterns/typography/" class="sidenav__link"> Typography </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
 
       
 
+      <main class="content-container" role="main">
+        
+  <div class="content__header">
+    <div class="page-header">
 
-<h1 id="buttons-yo">Buttons, yo</h1>
+  <h1 class="text-h1">
+    Button
+  </h1>
+
+
+  <a href="#design-guidelines" class="link">Design Guidelines</a>
+  | <a href="#code-examples" class="link">Code & Examples</a>
+
+</div>
+
+  </div>
+  <div class="content__body">
+    <article class="content">
+      
+
+<h2 id="design-guidelines">Design Guidelines</h2>
+
+<p>These are design guidelines
+dff
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.</p>
+
+<h2 id="code-examples">Code &amp; Examples</h2>
+
+<p>Alto defines three button styles:</p>
+
+<ul>
+<li><strong>Solid</strong>. A solid background with light text. These buttons are prominent on the page.</li>
+<li><strong>Outline</strong>. A transparent background with colored border and text. On hover, the button fills with color.</li>
+<li><strong>Flat</strong>. Text in Action Blue, used to indicate an action.</li>
+</ul>
 
 <div class="alto-demo">
 
 <button class="button">Primary Action</button>
 <button class="button button--outline">Secondary Action</button>
 <button class="button button--flat">Tertiary Action</button>
-
 
 </div>
 
@@ -80,7 +171,7 @@
 
 <h2 id="sizes">Sizes</h2>
 
-<p><div class="alto-example">
+<div class="alto-example">
   <div class="alto-example__demo ">
     
 <button class="button button--small">Small Button</button>
@@ -96,11 +187,31 @@
 </code></pre>
   </div>
 </div>
-</p>
+
+
+<h2 id="wrapping">Wrapping</h2>
+
+<div class="alto-example">
+  <div class="alto-example__demo ">
+    
+<button style="width:200px" class="button button--small">Small Button with really long thext that should wrap</button>
+<button style="width:200px" class="button">Default Button with really long thext that should wrap</button>
+<button style="width:200px" class="button button--large">Large Button with really long thext that should wrap</button>
+
+  </div>
+  <div class="alto-example__code">
+<pre class="language-markup"><code class="language-markup">
+&lt;button style=&#34;width:200px&#34; class=&#34;button button--small&#34;&gt;Small Button with really long thext that should wrap&lt;/button&gt;
+&lt;button style=&#34;width:200px&#34; class=&#34;button&#34;&gt;Default Button with really long thext that should wrap&lt;/button&gt;
+&lt;button style=&#34;width:200px&#34; class=&#34;button button--large&#34;&gt;Large Button with really long thext that should wrap&lt;/button&gt;
+</code></pre>
+  </div>
+</div>
+
 
 <h2 id="outline">Outline</h2>
 
-<p><div class="alto-example">
+<div class="alto-example">
   <div class="alto-example__demo ">
     
 <button class="button button--outline">Ouline Button</button>
@@ -118,13 +229,13 @@
 </code></pre>
   </div>
 </div>
-</p>
+
 
 <h2 id="flat">Flat</h2>
 
 <p>Flat buttons have less horizontal padding than other buttons, so they do not feel so far apart when placed inline.</p>
 
-<p><div class="alto-example">
+<div class="alto-example">
   <div class="alto-example__demo ">
     
 <button class="button button--flat">Flat Button</button>
@@ -142,7 +253,7 @@
 </code></pre>
   </div>
 </div>
-</p>
+
 
 <h2 id="white">White</h2>
 
@@ -162,20 +273,14 @@
 </code></pre>
   </div>
 </div>
-</p>
 
+{{end}}</p>
 
-
-    </main>
-
-    <footer class="footer" role="contentinfo">
-  <div class="footer__inner">
-
-    <p class="site-footer__copyright">
-        &copy; 2017 &middot; <a href="/alto/">Alto</a>
-    </p>
+    </article>
   </div>
-</footer>
+
+      </main>
+    </div>
 
 
   </div>

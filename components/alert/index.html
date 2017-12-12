@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/alto/css/app.css">
 
 
+
 </head>
 <body>
 
@@ -29,9 +30,9 @@
     <ul class="navbar__links"><li class="">
           <a class="navbar__link" href="/alto/">Home</a>
       </li><li class="">
-          <a class="navbar__link" href="/alto/components/">Components</a>
+          <a class="navbar__link" href="/alto/components/button/">Docs</a>
       </li><li class="">
-          <a class="navbar__link" href="/alto/utilities/">Utilities</a>
+          <a class="navbar__link" href="/alto/releases/">Releases</a>
       </li>
 
     </ul>
@@ -39,14 +40,80 @@
 </header>
 
 
-    <main class="content-container" role="main">
+    <div class="flex--row">
+
+      
+        <nav class="sidenav--page">
+  <ul class="sidenav--list">
+    
+    
+      
+
+        <li class="sub-menu active">
+          <button class="sidenav__group-title">
+            
+            <span>Components</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/components/alert/" class="sidenav__link active"> Alert </a> </li>
+            
+              <li><a href="/alto/components/button/" class="sidenav__link"> Button </a> </li>
+            
+              <li><a href="/alto/components/form/" class="sidenav__link"> Form </a> </li>
+            
+              <li><a href="/alto/components/lists/" class="sidenav__link"> Lists </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+      
+      </li>
+    
+      
+
+        <li class="sub-menu">
+          <button class="sidenav__group-title">
+            
+            <span>patterns</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/patterns/spacing/" class="sidenav__link"> Spacing </a> </li>
+            
+              <li><a href="/alto/patterns/typography/" class="sidenav__link"> Typography </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
 
       
 
+      <main class="content-container" role="main">
+        
+  <div class="content__header">
+    <div class="page-header">
 
-<h1 id="alert">Alert</h1>
+  <h1 class="text-h1">
+    Alert
+  </h1>
 
-<div class="alto-example">
+
+  <a href="#design-guidelines" class="link">Design Guidelines</a>
+  | <a href="#code-examples" class="link">Code & Examples</a>
+
+</div>
+
+  </div>
+  <div class="content__body">
+    <article class="content">
+      <div class="alto-example">
   <div class="alto-example__demo alto-demo--error: cannot access positional params by string name">
     
 <div class="alert">
@@ -124,18 +191,11 @@
 </div>
 
 
-
-
-    </main>
-
-    <footer class="footer" role="contentinfo">
-  <div class="footer__inner">
-
-    <p class="site-footer__copyright">
-        &copy; 2017 &middot; <a href="/alto/">Alto</a>
-    </p>
+    </article>
   </div>
-</footer>
+
+      </main>
+    </div>
 
 
   </div>

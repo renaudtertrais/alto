@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="/alto/css/app.css">
 
 
+
 </head>
 <body>
 
@@ -30,10 +31,10 @@
 
     <ul class="navbar__links"><li class="">
           <a class="navbar__link" href="/alto/">Home</a>
-      </li><li class="active">
-          <a class="navbar__link" href="/alto/components/">Components</a>
       </li><li class="">
-          <a class="navbar__link" href="/alto/utilities/">Utilities</a>
+          <a class="navbar__link" href="/alto/components/button/">Docs</a>
+      </li><li class="">
+          <a class="navbar__link" href="/alto/releases/">Releases</a>
       </li>
 
     </ul>
@@ -41,9 +42,63 @@
 </header>
 
 
-    <main class="content-container" role="main">
+    <div class="flex--row">
 
       
+        <nav class="sidenav--page">
+  <ul class="sidenav--list">
+    
+    
+      
+
+        <li class="sub-menu">
+          <button class="sidenav__group-title">
+            
+            <span>Components</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/components/alert/" class="sidenav__link"> Alert </a> </li>
+            
+              <li><a href="/alto/components/button/" class="sidenav__link"> Button </a> </li>
+            
+              <li><a href="/alto/components/form/" class="sidenav__link"> Form </a> </li>
+            
+              <li><a href="/alto/components/lists/" class="sidenav__link"> Lists </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+      
+      </li>
+    
+      
+
+        <li class="sub-menu">
+          <button class="sidenav__group-title">
+            
+            <span>patterns</span>
+            <span class="menu-arrow arrow_carrot-right"></span>
+          </button>
+          <ul class="sidenav__subnav">
+            
+              <li><a href="/alto/patterns/spacing/" class="sidenav__link"> Spacing </a> </li>
+            
+              <li><a href="/alto/patterns/typography/" class="sidenav__link"> Typography </a> </li>
+            
+          </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+      
+
+      <main class="content-container" role="main">
+        
 
   <h2>
     Components
@@ -74,33 +129,13 @@
         </a>
       </li>
     
-      <li class="pages-list__item">
-        <a href="/alto/components/lists/" class="link pages-list__link">
-          Lists
-        </a>
-      </li>
-    
   </ul>
 
-  <h2>Components Page</h2>
-
-<p>
-  I am content on the components page.
-</p>
+  
 
 
-
-
-    </main>
-
-    <footer class="footer" role="contentinfo">
-  <div class="footer__inner">
-
-    <p class="site-footer__copyright">
-        &copy; 2017 &middot; <a href="/alto/">Alto</a>
-    </p>
-  </div>
-</footer>
+      </main>
+    </div>
 
 
   </div>
