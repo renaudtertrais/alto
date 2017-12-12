@@ -25,9 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/alto/components/button/</guid>
-      <description>Design Guidelines These are design guidelines dff Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>Buttons allow an application to communicate action and direct user intent. Three different types Solid Button   Solid buttons look heavy on purpose. They direct the user’s attention to the primary action the application is suggesting that the user take.  Outline Button   Outline buttons provide a lighter weight button style. They are used to indicate a secondary action that compliments a primary action or to reduce visual noise when there are many action of equal importance on the page.</description>
     </item>
     
     <item>
@@ -48,6 +46,18 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
       <description>Hello.
 Interactive list
    Item 1  Extra Information       Item 2  Extra Information       Item 3  Extra Information       Item 4  Extra Information       Item 5  Extra Information     </description>
+    </item>
+    
+    <item>
+      <title>Tab</title>
+      <link>/alto/components/tab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/tab/</guid>
+      <description>Tabs divide content into separate views which users navigate between.  Tabs divide content into separate views which users navigate between.    Design Guidelines Usage Use tabs for alternate views within the sidenav or main content area.
+Don’t use tabs to break user interactions into a series of steps. Serial workflows are best presented in a wizard.
+Avoid using tabs in cards and modals.
+Presentation Tabs appear in a single, non-scrollable row, above their content.</description>
     </item>
     
   </channel>

@@ -25,9 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/alto/components/button/</guid>
-      <description>Design Guidelines These are design guidelines dff Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus iste repellat fuga asperiores ea nemo possimus. Recusandae minima fuga in, nulla nemo consequatur, porro cumque libero. Temporibus aliquam, sed debitis.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit.</description>
+      <description>Buttons allow an application to communicate action and direct user intent. Three different types Solid Button   Solid buttons look heavy on purpose. They direct the user’s attention to the primary action the application is suggesting that the user take.  Outline Button   Outline buttons provide a lighter weight button style. They are used to indicate a secondary action that compliments a primary action or to reduce visual noise when there are many action of equal importance on the page.</description>
     </item>
     
     <item>
@@ -67,6 +65,18 @@ Interactive list
       <guid>/alto/patterns/spacing/</guid>
       <description>Spacing! Margins and Paddings.fsf
 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;script&amp;gt; // Just a lil’ script to show off that inline JS gets highlighted window.console &amp;amp;&amp;amp; console.log(&amp;#39;foo&amp;#39;); &amp;lt;/script&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34; /&amp;gt; &amp;lt;link rel=&amp;#34;shortcut icon&amp;#34; href=&amp;#34;favicon.png&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Prism&amp;lt;/title&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;style.css&amp;#34; /&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;themes/prism.css&amp;#34; data-noprefix /&amp;gt; &amp;lt;script src=&amp;#34;prefixfree.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt;var _gaq = [[&amp;#39;_setAccount&amp;#39;, &amp;#39;UA-33746269-1&amp;#39;], [&amp;#39;_trackPageview&amp;#39;]];&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;#34;https://www.google-analytics.com/ga.js&amp;#34; async&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;   @import url(http://fonts.googleapis.com/css?family=Questrial); @import url(http://fonts.googleapis.com/css?family=Arvo); @font-face { src: url(http://lea.verou.me/logo.otf); font-family: &amp;#39;LeaVerou&amp;#39;; } /* Shared styles */ section h1, #features li strong, header h2, footer p { font: 100% Rockwell, Arvo, serif; } /* Styles */ * { margin: 0; padding: 0; font-weight: normal; } body { font: 100%/1.</description>
+    </item>
+    
+    <item>
+      <title>Tab</title>
+      <link>/alto/components/tab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/tab/</guid>
+      <description>Tabs divide content into separate views which users navigate between.  Tabs divide content into separate views which users navigate between.    Design Guidelines Usage Use tabs for alternate views within the sidenav or main content area.
+Don’t use tabs to break user interactions into a series of steps. Serial workflows are best presented in a wizard.
+Avoid using tabs in cards and modals.
+Presentation Tabs appear in a single, non-scrollable row, above their content.</description>
     </item>
     
     <item>
