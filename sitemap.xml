@@ -29,6 +29,10 @@
   </url>
   
   <url>
+    <loc>/alto/components/icons/</loc>
+  </url>
+  
+  <url>
     <loc>/alto/components/lists/</loc>
   </url>
   
@@ -47,11 +51,15 @@
   </url>
   
   <url>
+    <loc>/alto/components/sidenav/</loc>
+  </url>
+  
+  <url>
     <loc>/alto/patterns/spacing/</loc>
   </url>
   
   <url>
-    <loc>/alto/components/tab/</loc>
+    <loc>/alto/components/tabs/</loc>
   </url>
   
   <url>

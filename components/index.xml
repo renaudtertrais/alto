@@ -25,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/alto/components/button/</guid>
-      <description>Buttons allow an application to communicate action and direct user intent. Three different types Solid Button   Solid buttons look heavy on purpose. They direct the user’s attention to the primary action the application is suggesting that the user take.  Outline Button   Outline buttons provide a lighter weight button style. They are used to indicate a secondary action that compliments a primary action or to reduce visual noise when there are many action of equal importance on the page.</description>
+      <description>Buttons allow an application to communicate action and direct user intent. Three Different Types Solid Button   Solid buttons look heavy on purpose. They direct the user’s attention to the primary action the application is suggesting that the user take.  Outline Button   Outline buttons provide a lighter weight button style. They are used to indicate a secondary action that compliments a primary action or to reduce visual noise when there are many action of equal importance on the page.</description>
     </item>
     
     <item>
@@ -35,6 +35,16 @@
       
       <guid>/alto/components/form/</guid>
       <description> Form, yo Label We&#39;ll never share your email with anyone else.  Password  Check me out   Submit   &amp;lt;form class=&amp;#34;form&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;input1&amp;#34;&amp;gt;Label&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;input1&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;input1&amp;#34; aria-describedby=&amp;#34;emailHelp&amp;#34; placeholder=&amp;#34;Enter email&amp;#34;&amp;gt; &amp;lt;small id=&amp;#34;emailHelp&amp;#34; class=&amp;#34;form-text text-muted&amp;#34;&amp;gt;We&amp;#39;ll never share your email with anyone else.&amp;lt;/small&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-group&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;exampleInputPassword1&amp;#34;&amp;gt;Password&amp;lt;/label&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; class=&amp;#34;form-control&amp;#34; id=&amp;#34;exampleInputPassword1&amp;#34; placeholder=&amp;#34;Password&amp;#34;&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;form-check&amp;#34;&amp;gt; &amp;lt;label class=&amp;#34;form-check-label&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;checkbox&amp;#34; class=&amp;#34;form-check-input&amp;#34;&amp;gt; Check me out &amp;lt;/label&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;button type=&amp;#34;submit&amp;#34; class=&amp;#34;btn btn-primary&amp;#34;&amp;gt;Submit&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt;    </description>
+    </item>
+    
+    <item>
+      <title>Icons</title>
+      <link>/alto/components/icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/icons/</guid>
+      <description>Alto uses Clarity Icons for its icon set. How to Use Clarity Icons Set icons By default, the size for Clarity Icons is 16 by 16 pixels, and you have two ways of customizing this default value. One is through the use of the size attribute; the other is manually customizing the width and height values in your icon&amp;rsquo;s style.
+             &amp;lt;!</description>
     </item>
     
     <item>
@@ -49,15 +59,23 @@ Interactive list
     </item>
     
     <item>
-      <title>Tab</title>
-      <link>/alto/components/tab/</link>
+      <title>Sidenav</title>
+      <link>/alto/components/sidenav/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/alto/components/tab/</guid>
-      <description>Tabs divide content into separate views which users navigate between.  Tabs divide content into separate views which users navigate between.    Design Guidelines Usage Use tabs for alternate views within the sidenav or main content area.
-Don’t use tabs to break user interactions into a series of steps. Serial workflows are best presented in a wizard.
-Avoid using tabs in cards and modals.
-Presentation Tabs appear in a single, non-scrollable row, above their content.</description>
+      <guid>/alto/components/sidenav/</guid>
+      <description>LOGO  L  Menu  {this.renderNavItems()} {this.renderNavItems()}  {collapsed ? expandButtonLabel : collapseButtonLabel}    &amp;lt;aside class=&amp;#34;sidenav&amp;#34;&amp;gt; &amp;lt;header class=&amp;#34;sidenav__header&amp;#34;&amp;gt; &amp;lt;a class=&amp;#34;sidenav__logo&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt; LOGO &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;#34;sidenav__logo sidenav__logo--narrow&amp;#34; href=&amp;#34;#&amp;#34;&amp;gt; L &amp;lt;/a&amp;gt; &amp;lt;button class=&amp;#34;button button--outline button--white&amp;#34;&amp;gt;Menu&amp;lt;/button&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;ul class=&amp;#34;sidenav__sections-list&amp;#34;&amp;gt;{this.renderNavItems()}&amp;lt;/ul&amp;gt; &amp;lt;ul class=&amp;#34;sidenav__sections-list-narrow&amp;#34;, { open })} aria-hidden={!open}&amp;gt; {this.renderNavItems()} &amp;lt;/ul&amp;gt; &amp;lt;button class={bemClass( &amp;#39;sidenav__icon-container&amp;#39;, { reverse: collapsed }, &amp;#39;sidenav__toggle-button&amp;#39; )} onClick={this.handleToggle} aria-expanded={collapsed} &amp;gt; &amp;lt;ArrowLeftIcon /&amp;gt; &amp;lt;VisuallyHidden&amp;gt;{collapsed ? expandButtonLabel : collapseButtonLabel}&amp;lt;/VisuallyHidden&amp;gt; &amp;lt;/button&amp;gt; &amp;lt;/aside&amp;gt;    </description>
+    </item>
+    
+    <item>
+      <title>Tabs</title>
+      <link>/alto/components/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/tabs/</guid>
+      <description>Tabs divide content into separagate views which users navigate between. Simple Tabs The following is a static example of tabs with their associated sections. You cannot switch between tabs in this static demo because it does not contain the JavaScript to handle this behavior.
+The active tab should have the additional class active. The stylesheet will hide all the section elements where attribute aria-hidden is set to true.
+ Home  Docs  Releases    You cannot switch between tabs in this static demo because it does not contain the JavaScript to handle this behavior.</description>
     </item>
     
   </channel>
