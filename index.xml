@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home Page on Alto</title>
+    <title>Home on Alto</title>
     <link>/alto/</link>
-    <description>Recent content in Home Page on Alto</description>
+    <description>Recent content in Home on Alto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -43,8 +43,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/alto/components/icons/</guid>
-      <description>Alto uses Clarity Icons for its icon set. How to Use Clarity Icons Set icons By default, the size for Clarity Icons is 16 by 16 pixels, and you have two ways of customizing this default value. One is through the use of the size attribute; the other is manually customizing the width and height values in your icon&amp;rsquo;s style.
-             &amp;lt;!</description>
+      <description>Icons
+  &amp;lt;svg class=&amp;#34;icon&amp;#34; version=&amp;#34;1.1&amp;#34; viewBox=&amp;#34;0 0 36 36&amp;#34; width=&amp;#34;1em&amp;#34; height=&amp;#34;1em&amp;#34; xmlns=&amp;#34;http://www.w3.org/2000/svg&amp;#34; role=&amp;#34;presentation&amp;#34;&amp;gt;&amp;lt;path fill=&amp;#34;currentColor&amp;#34; d=&amp;#34;M30.8,2.29A.49.49,0,0,0,30.35,2H16.42a.5.5,0,0,0-.42.23l-10.71,17A.49.49,0,0,0,5.7,20h7.67L6.6,33.25a.52.52,0,0,0,.46.75h3a.5.5,0,0,0,.37-.16L28,14.85a.5.5,0,0,0-.37-.85H20.89L30.72,2.82A.49.49,0,0,0,30.8,2.29Z&amp;#34;&amp;gt;&amp;lt;/path&amp;gt;&amp;lt;/svg&amp;gt;    </description>
     </item>
     
     <item>
