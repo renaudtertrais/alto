@@ -39,6 +39,7 @@ html {
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   letter-spacing: .06em;
   cursor: pointer;
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
@@ -1183,6 +1184,19 @@ body {
   @media only screen and (min-width: 768px) {
     .hero__title {
       font-size: 3.25rem; } }
+
+.hero__actions .button {
+  display: block; }
+  .hero__actions .button:not(:last-child) {
+    margin-bottom: 1rem; }
+  @media only screen and (min-width: 560px) {
+    .hero__actions .button {
+      display: inline-block; } }
+
+@media only screen and (min-width: 560px) {
+  .hero__actions .button:not(:last-child) {
+    margin-right: 1rem;
+    margin-bottom: 0; } }
 
 .hero__lead {
   font-size: 1.125rem;
