@@ -19,12 +19,42 @@ textarea {
   border: 0;
   outline: 0; }
 
+.link {
+  color: #0074E0;
+  text-decoration: none;
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
+  .link:hover {
+    color: #005BB1;
+    text-decoration: underline; }
+  .link:visited {
+    color: #0074E0; }
+    .link:visited:hover {
+      color: #005BB1; }
+  .link:focus {
+    box-shadow: 0 0 0 3px #82C1FA;
+    border-radius: 3px; }
+
 html {
   font-size: 16px;
   font-family: "Source Sans Pro", sans-serif;
   color: #333C48;
   background: #fff;
   line-height: 1.5; }
+
+.link {
+  color: #0074E0;
+  text-decoration: none;
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
+  .link:hover {
+    color: #005BB1;
+    text-decoration: underline; }
+  .link:visited {
+    color: #0074E0; }
+    .link:visited:hover {
+      color: #005BB1; }
+  .link:focus {
+    box-shadow: 0 0 0 3px #82C1FA;
+    border-radius: 3px; }
 
 .button {
   background: #0074E0;
@@ -38,8 +68,6 @@ html {
   border: 1px solid transparent;
   border-radius: 3px;
   text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
   letter-spacing: .06em;
   cursor: pointer;
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
@@ -110,6 +138,10 @@ html {
 .button--large {
   font-size: 1.125rem;
   padding: .9375rem 1.8125rem; }
+
+.button--block {
+  display: block;
+  width: 100%; }
 
 .button--outline {
   background: transparent;
@@ -305,6 +337,21 @@ html {
 
 .alert__close {
   flex: 0 1 auto; }
+
+.link {
+  color: #0074E0;
+  text-decoration: none;
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
+  .link:hover {
+    color: #005BB1;
+    text-decoration: underline; }
+  .link:visited {
+    color: #0074E0; }
+    .link:visited:hover {
+      color: #005BB1; }
+  .link:focus {
+    box-shadow: 0 0 0 3px #82C1FA;
+    border-radius: 3px; }
 
 .tabs {
   list-style: none;
@@ -809,18 +856,6 @@ p {
 code {
   color: #C30014; }
 
-.link {
-  color: #0074E0;
-  text-decoration: none;
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
-  .link:hover {
-    color: #005BB1;
-    text-decoration: underline; }
-  .link:visited {
-    color: #0074E0; }
-    .link:visited:hover {
-      color: #005BB1; }
-
 /* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+scss */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
@@ -953,23 +988,6 @@ body {
   flex-direction: row;
   justify-content: space-between; }
 
-.navbar--home {
-  background: transparent;
-  color: #333C48; }
-  .navbar--home .alto-logo g {
-    fill: #333C48;
-    transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
-  .navbar--home .navbar__brand:hover .alto-logo g {
-    fill: rgba(51, 60, 72, 0.7); }
-  .navbar--home .navbar__link {
-    color: #333C48; }
-    .navbar--home .navbar__link:hover {
-      background: transparent;
-      box-shadow: inset 0 -4px 0 -1px #0074E0; }
-    .navbar--home .navbar__link.active {
-      background: transparent;
-      box-shadow: inset 0 -4px 0 -1px #0074E0; }
-
 .navbar__links {
   display: flex;
   flex-direction: row;
@@ -992,7 +1010,7 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) background; }
   .navbar__link:hover {
     background: #02417C; }
   .navbar__link.active {
@@ -1011,11 +1029,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   height: 100%; }
-
-.main-container--home {
-  height: auto;
-  min-height: 100%;
-  background: url("../images/Hero-Mock-Up@2x.jpg") top center/cover no-repeat #fff; }
 
 .sidenav--page {
   padding: 1.5rem 0;
@@ -1163,47 +1176,26 @@ body {
   max-width: 78rem; }
 
 .hero {
-  text-align: left;
-  padding: 20rem 0 1rem; }
+  text-align: center;
+  padding: 1rem 0; }
   @media only screen and (min-width: 560px) {
     .hero {
       text-align: left; } }
-  @media only screen and (min-width: 768px) {
-    .hero {
-      padding-top: 10vw; } }
-  @media only screen and (min-width: 1008px) {
-    .hero {
-      padding-top: 6.25rem; } }
 
 .hero__title {
   font-weight: 400;
   font-size: 2.25rem;
   line-height: 1;
-  margin-bottom: 2rem;
-  color: #3F4F5E; }
+  margin-bottom: 2rem; }
   @media only screen and (min-width: 768px) {
     .hero__title {
       font-size: 3.25rem; } }
 
-.hero__actions .button {
-  display: block; }
-  .hero__actions .button:not(:last-child) {
-    margin-bottom: 1rem; }
-  @media only screen and (min-width: 560px) {
-    .hero__actions .button {
-      display: inline-block; } }
-
-@media only screen and (min-width: 560px) {
-  .hero__actions .button:not(:last-child) {
-    margin-right: 1rem;
-    margin-bottom: 0; } }
-
 .hero__lead {
   font-size: 1.125rem;
   font-weight: 300;
-  max-width: 24rem;
-  line-height: 1.5;
-  color: #3F4F5E; }
+  max-width: 38rem;
+  line-height: 1.5; }
 
 .pages-list {
   margin: 2rem 0;
@@ -1250,11 +1242,11 @@ body {
 .alto-demo--dark-background {
   background: #192328; }
 
-.alto-logo g {
+.alto-logo path {
   fill: rgba(255, 255, 255, 0.8);
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
 
-.navbar__brand:hover .alto-logo g {
+.navbar__brand:hover .alto-logo path {
   fill: #fff; }
 
 .example-tabbed-content {
