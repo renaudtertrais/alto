@@ -60,14 +60,16 @@ html {
   background: #0074E0;
   color: white;
   border-color: #0074E0;
-  font-weight: 600;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: .875rem;
   font-family: "Source Sans Pro", sans-serif;
   padding: .5625rem 1.25rem;
   line-height: 1rem;
   border: 1px solid transparent;
   border-radius: 3px;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
   letter-spacing: .06em;
   cursor: pointer;
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
@@ -817,7 +819,8 @@ html {
 .text--h4,
 .text--h5,
 .text--h6 {
-  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   line-height: 1;
   color: #333C48; }
 
@@ -988,6 +991,23 @@ body {
   flex-direction: row;
   justify-content: space-between; }
 
+.navbar--home {
+  background: transparent;
+  color: #fff; }
+  .navbar--home .alto-logo g {
+    fill: #fff;
+    transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
+  .navbar--home .navbar__brand:hover .alto-logo g {
+    fill: rgba(255, 255, 255, 0.7); }
+  .navbar--home .navbar__link {
+    color: #fff; }
+    .navbar--home .navbar__link:hover {
+      background: transparent;
+      box-shadow: inset 0 -4px 0 -1px #fff; }
+    .navbar--home .navbar__link.active {
+      background: transparent;
+      box-shadow: inset 0 -4px 0 -1px #fff; }
+
 .navbar__links {
   display: flex;
   flex-direction: row;
@@ -1010,7 +1030,7 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) background; }
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
   .navbar__link:hover {
     background: #02417C; }
   .navbar__link.active {
@@ -1030,6 +1050,14 @@ body {
   align-items: flex-start;
   height: 100%; }
 
+.main-container--home {
+  height: auto;
+  min-height: 100%;
+  background: url(../images/foreground-wide.svg) top center/cover no-repeat, url(../images/background-wide.svg) bottom center/cover no-repeat; }
+  @media only screen and (min-width: 1980px) {
+    .main-container--home {
+      background-size: cover, cover; } }
+
 .sidenav--page {
   padding: 1.5rem 0;
   border-right: 1px solid #C4D7EB;
@@ -1040,9 +1068,9 @@ body {
 .sidenav__group-title {
   line-height: 1em;
   padding: .5rem 2rem;
-  text-transform: uppercase;
   color: #4F6376;
-  font-weight: 600; }
+  font-weight: 400;
+  font-size: 1.125rem; }
 
 .sidenav__link {
   text-decoration: none;
@@ -1123,7 +1151,9 @@ body {
   box-shadow: 0 1px 0 0 #C4D7EB; }
 
 .page-header__title {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
 
 .page-header__link,
 .page-header__link:visited {
@@ -1157,7 +1187,9 @@ body {
   .content > h4,
   .content > h5,
   .content > h6 {
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400; }
   .content > h2 {
     font-size: 1.25rem;
     font-weight: 400;
@@ -1176,26 +1208,48 @@ body {
   max-width: 78rem; }
 
 .hero {
-  text-align: center;
-  padding: 1rem 0; }
-  @media only screen and (min-width: 560px) {
-    .hero {
-      text-align: left; } }
+  text-align: left;
+  padding: 4rem 0 1rem;
+  font-weight: 300;
+  color: #fff; }
 
 .hero__title {
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 2.25rem;
   line-height: 1;
-  margin-bottom: 2rem; }
-  @media only screen and (min-width: 768px) {
-    .hero__title {
-      font-size: 3.25rem; } }
+  margin-bottom: 1rem;
+  color: #fff; }
+
+.hero__actions {
+  margin: 1rem 0; }
+  .hero__actions .button {
+    display: block; }
+    .hero__actions .button:not(:last-child) {
+      margin-bottom: 1rem; }
+    @media only screen and (min-width: 560px) {
+      .hero__actions .button {
+        display: inline-block; } }
+  @media only screen and (min-width: 560px) {
+    .hero__actions .button:not(:last-child) {
+      margin-right: 1rem;
+      margin-bottom: 0; } }
+
+.hero__link,
+.hero__link:visited {
+  color: #fff;
+  box-shadow: 0 1px 0 0 #fff; }
+  .hero__link:hover,
+  .hero__link:visited:hover {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0px 0 0 #fff; }
 
 .hero__lead {
   font-size: 1.125rem;
-  font-weight: 300;
-  max-width: 38rem;
-  line-height: 1.5; }
+  max-width: 24rem;
+  line-height: 1.5;
+  color: #fff; }
 
 .pages-list {
   margin: 2rem 0;
@@ -1242,11 +1296,11 @@ body {
 .alto-demo--dark-background {
   background: #192328; }
 
-.alto-logo path {
+.alto-logo g {
   fill: rgba(255, 255, 255, 0.8);
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
 
-.navbar__brand:hover .alto-logo path {
+.navbar__brand:hover .alto-logo g {
   fill: #fff; }
 
 .example-tabbed-content {
