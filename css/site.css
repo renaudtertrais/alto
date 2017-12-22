@@ -60,16 +60,14 @@ html {
   background: #0074E0;
   color: white;
   border-color: #0074E0;
-  font-weight: 400;
-  font-size: .875rem;
+  font-weight: 600;
+  font-size: 1rem;
   font-family: "Source Sans Pro", sans-serif;
   padding: .5625rem 1.25rem;
   line-height: 1rem;
   border: 1px solid transparent;
   border-radius: 3px;
   text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
   letter-spacing: .06em;
   cursor: pointer;
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
@@ -140,6 +138,19 @@ html {
 .button--large {
   font-size: 1.125rem;
   padding: .9375rem 1.8125rem; }
+
+.button--nowrap {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 2.25rem;
+  height: 2.25rem;
+  white-space: nowrap; }
+  .button--nowrap.button--small {
+    line-height: 1.5rem;
+    height: 1.5rem; }
+  .button--nowrap.button--large {
+    line-height: 3rem;
+    height: 3rem; }
 
 .button--block {
   display: block;
@@ -277,37 +288,118 @@ html {
   .button--flat.button--white:disabled {
     color: #A2B8CE; }
 
-.list--interactive {
-  border-radius: 3px;
+.link {
+  color: #0074E0;
+  text-decoration: none;
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
+  .link:hover {
+    color: #005BB1;
+    text-decoration: underline; }
+  .link:visited {
+    color: #0074E0; }
+    .link:visited:hover {
+      color: #005BB1; }
+  .link:focus {
+    box-shadow: 0 0 0 3px #82C1FA;
+    border-radius: 3px; }
+
+.list {
   background: #fff;
-  display: flex;
-  flex-direction: column;
   list-style: none;
-  border: 1px solid #C4D7EB; }
-  .list--interactive li:not(:last-child) {
-    border-bottom: 1px solid #C4D7EB; }
+  overflow: auto; }
 
-.list-item--active a,
-.list-item--active a:hover {
-  background: #B1D9FF; }
+.list__item {
+  border: 1px solid #C4D7EB;
+  border-top: 0;
+  overflow: hidden; }
+  .list__item:first-child {
+    border-top: 1px solid #C4D7EB;
+    border-radius: 3px 3px 0 0; }
+  .list__item:last-child {
+    border-radius: 0 0 3px 3px; }
 
-.list--interactive__link {
+.list__item-content {
   padding: .75rem 1.25rem;
   display: flex;
   flex-direction: row;
   text-decoration: none;
   align-items: center;
   font-weight: 600;
-  color: #333C48;
+  color: #333C48; }
+
+.list__item-content--link {
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) background; }
-  .list--interactive__link:hover {
+  .list__item-content--link:hover {
     background: #F3F9FF;
     color: #333C48;
     text-decoration: none; }
+  .list__item-content--link:focus {
+    box-shadow: inset 0 0 0 3px #B1D9FF; }
 
-.avatar,
-.avatar img {
-  border-radius: 500px; }
+.list__item-content--active, .list__item-content--active:hover {
+  background: #0074E0;
+  color: #fff; }
+  .list__item-content--active *, .list__item-content--active:hover * {
+    color: #fff;
+    border-color: #fff; }
+
+.link {
+  color: #0074E0;
+  text-decoration: none;
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) color; }
+  .link:hover {
+    color: #005BB1;
+    text-decoration: underline; }
+  .link:visited {
+    color: #0074E0; }
+    .link:visited:hover {
+      color: #005BB1; }
+  .link:focus {
+    box-shadow: 0 0 0 3px #82C1FA;
+    border-radius: 3px; }
+
+.avatar {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 3.5rem; }
+
+.avatar--small {
+  font-size: 2rem; }
+
+.avatar--large {
+  font-size: 5rem; }
+
+.avatar--big {
+  font-size: 8rem; }
+
+.avatar__image {
+  max-width: 100%;
+  max-height: 100%; }
+
+.avatar__placeholder {
+  background-color: #C4D7EB;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.avatar__placeholder-icon-container {
+  position: absolute;
+  top: .1em;
+  bottom: .1em;
+  left: .1em;
+  right: .1em;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1; }
+
+.avatar__placeholder-icon {
+  position: absolute;
+  bottom: -.2em;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #8096AC; }
 
 .alert {
   display: flex;
@@ -819,8 +911,7 @@ html {
 .text--h4,
 .text--h5,
 .text--h6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1;
   color: #333C48; }
 
@@ -991,23 +1082,6 @@ body {
   flex-direction: row;
   justify-content: space-between; }
 
-.navbar--home {
-  background: transparent;
-  color: #fff; }
-  .navbar--home .alto-logo g {
-    fill: #fff;
-    transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
-  .navbar--home .navbar__brand:hover .alto-logo g {
-    fill: rgba(255, 255, 255, 0.7); }
-  .navbar--home .navbar__link {
-    color: #fff; }
-    .navbar--home .navbar__link:hover {
-      background: transparent;
-      box-shadow: inset 0 -4px 0 -1px #fff; }
-    .navbar--home .navbar__link.active {
-      background: transparent;
-      box-shadow: inset 0 -4px 0 -1px #fff; }
-
 .navbar__links {
   display: flex;
   flex-direction: row;
@@ -1030,7 +1104,7 @@ body {
   display: flex;
   align-items: center;
   height: 100%;
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
+  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) background; }
   .navbar__link:hover {
     background: #02417C; }
   .navbar__link.active {
@@ -1050,14 +1124,6 @@ body {
   align-items: flex-start;
   height: 100%; }
 
-.main-container--home {
-  height: auto;
-  min-height: 100%;
-  background: url(../images/foreground-wide.svg) top center/cover no-repeat, url(../images/background-wide.svg) bottom center/cover no-repeat; }
-  @media only screen and (min-width: 1980px) {
-    .main-container--home {
-      background-size: cover, cover; } }
-
 .sidenav--page {
   padding: 1.5rem 0;
   border-right: 1px solid #C4D7EB;
@@ -1068,9 +1134,9 @@ body {
 .sidenav__group-title {
   line-height: 1em;
   padding: .5rem 2rem;
+  text-transform: uppercase;
   color: #4F6376;
-  font-weight: 400;
-  font-size: 1.125rem; }
+  font-weight: 600; }
 
 .sidenav__link {
   text-decoration: none;
@@ -1151,9 +1217,7 @@ body {
   box-shadow: 0 1px 0 0 #C4D7EB; }
 
 .page-header__title {
-  margin-bottom: 1rem;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400; }
+  margin-bottom: 1rem; }
 
 .page-header__link,
 .page-header__link:visited {
@@ -1187,9 +1251,7 @@ body {
   .content > h4,
   .content > h5,
   .content > h6 {
-    margin-top: 1rem;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400; }
+    margin-top: 1rem; }
   .content > h2 {
     font-size: 1.25rem;
     font-weight: 400;
@@ -1208,48 +1270,26 @@ body {
   max-width: 78rem; }
 
 .hero {
-  text-align: left;
-  padding: 4rem 0 1rem;
-  font-weight: 300;
-  color: #fff; }
+  text-align: center;
+  padding: 1rem 0; }
+  @media only screen and (min-width: 560px) {
+    .hero {
+      text-align: left; } }
 
 .hero__title {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 2.25rem;
   line-height: 1;
-  margin-bottom: 1rem;
-  color: #fff; }
-
-.hero__actions {
-  margin: 1rem 0; }
-  .hero__actions .button {
-    display: block; }
-    .hero__actions .button:not(:last-child) {
-      margin-bottom: 1rem; }
-    @media only screen and (min-width: 560px) {
-      .hero__actions .button {
-        display: inline-block; } }
-  @media only screen and (min-width: 560px) {
-    .hero__actions .button:not(:last-child) {
-      margin-right: 1rem;
-      margin-bottom: 0; } }
-
-.hero__link,
-.hero__link:visited {
-  color: #fff;
-  box-shadow: 0 1px 0 0 #fff; }
-  .hero__link:hover,
-  .hero__link:visited:hover {
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 0px 0 0 #fff; }
+  margin-bottom: 2rem; }
+  @media only screen and (min-width: 768px) {
+    .hero__title {
+      font-size: 3.25rem; } }
 
 .hero__lead {
   font-size: 1.125rem;
-  max-width: 24rem;
-  line-height: 1.5;
-  color: #fff; }
+  font-weight: 300;
+  max-width: 38rem;
+  line-height: 1.5; }
 
 .pages-list {
   margin: 2rem 0;
@@ -1296,11 +1336,11 @@ body {
 .alto-demo--dark-background {
   background: #192328; }
 
-.alto-logo g {
+.alto-logo path {
   fill: rgba(255, 255, 255, 0.8);
   transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) fill; }
 
-.navbar__brand:hover .alto-logo g {
+.navbar__brand:hover .alto-logo path {
   fill: #fff; }
 
 .example-tabbed-content {
