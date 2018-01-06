@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home Page on Alto</title>
+    <title>Home on Alto</title>
     <link>/alto/</link>
-    <description>Recent content in Home Page on Alto</description>
+    <description>Recent content in Home on Alto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -26,6 +26,15 @@
       
       <guid>/alto/components/button/</guid>
       <description>Buttons allow an application to communicate action and direct user intent. Three Different Types Solid Button   Solid buttons look heavy on purpose. They direct the user’s attention to the primary action the application is suggesting that the user take.  Outline Button   Outline buttons provide a lighter weight button style. They are used to indicate a secondary action that compliments a primary action or to reduce visual noise when there are many action of equal importance on the page.</description>
+    </item>
+    
+    <item>
+      <title>Button Group</title>
+      <link>/alto/components/button-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/button-group/</guid>
+      <description> Button Group Base Button Active Button Button Disabled Disabled Button   &amp;lt;div class=&amp;#34;button-group&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--active&amp;#34;&amp;gt;Active&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt;    </description>
     </item>
     
     <item>

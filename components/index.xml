@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Button Group</title>
+      <link>/alto/components/button-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/alto/components/button-group/</guid>
+      <description> Button Group Base Button Active Button Button Disabled Disabled Button   &amp;lt;div class=&amp;#34;button-group&amp;#34;&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button button--active&amp;#34;&amp;gt;Active&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34; disabled&amp;gt;Disabled&amp;lt;/button&amp;gt; &amp;lt;button class=&amp;#34;button&amp;#34;&amp;gt;Button&amp;lt;/button&amp;gt; &amp;lt;/div&amp;gt;    </description>
+    </item>
+    
+    <item>
       <title>Form</title>
       <link>/alto/components/form/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

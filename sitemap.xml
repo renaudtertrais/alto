@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>/alto/components/button-group/</loc>
+  </url>
+  
+  <url>
     <loc>/alto/categories/</loc>
     <priority>0</priority>
   </url>
