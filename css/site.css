@@ -60,6 +60,7 @@ html {
   background: #0074e0;
   color: white;
   border-color: #0074e0;
+  display: inline-block;
   font-weight: 400;
   font-size: 1rem;
   font-family: "Source Sans Pro", sans-serif;
