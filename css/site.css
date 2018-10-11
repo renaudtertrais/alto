@@ -105,12 +105,13 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1rem;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 0.4375rem 0.75rem;
+  padding: 0 0.75rem;
+  height: 1.75rem;
   line-height: 1rem;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 3px;
   text-decoration: none;
   text-align: center;
@@ -178,14 +179,16 @@ button {
     border-color: #bfcedd; }
 
 .button--small {
-  font-size: 0.875rem;
-  padding: 0.25rem 0.5rem; }
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  height: 1.5rem; }
   .button--small .icon {
     font-size: 1rem; }
 
 .button--large {
   font-size: 1.125rem;
-  padding: 0.625rem 1.25rem; }
+  padding: 0 1.25rem;
+  height: 2rem; }
 
 .button--nowrap {
   padding-top: 0;
@@ -276,21 +279,23 @@ button {
     border-color: #bfcedd; }
 
 .button--flat {
-  color: #0074e0;
+  color: #66778a;
   background: transparent;
   border-color: transparent;
+  font-weight: 600;
   padding-left: 0.5rem;
   padding-right: 0.5rem; }
   .button--flat, .button--flat:hover, .button--flat:active, .button--flat:disabled, .button--flat.button--disabled, .button--flat.button--active {
     background: transparent;
     border-color: transparent; }
   .button--flat:focus {
-    box-shadow: 0 0 0 3px #e1f0ff; }
+    box-shadow: 0 0 0 3px #a6d4ff; }
   .button--flat:hover, .button--flat.button--active {
-    color: #02417c;
-    background: #e1f0ff; }
-  .button--flat:active {
-    color: #0074e0; }
+    color: #0074e0;
+    background: transparent; }
+  .button--flat.button--active {
+    background: #e1f0ff;
+    color: #005bb1; }
   .button--flat:disabled, .button--flat.button--disabled {
     color: #bfcedd;
     background: transparent; }
@@ -305,7 +310,8 @@ button {
   .button--flat.button--success:hover, .button--flat.button--success.button--active {
     color: #035410;
     background: #e2fde6; }
-  .button--flat.button--success:active {
+  .button--flat.button--success.button--active {
+    background: #b3f2bd;
     color: #208831; }
   .button--flat.button--success:disabled, .button--flat.button--success.button--disabled {
     color: #bfcedd;
@@ -321,7 +327,8 @@ button {
   .button--flat.button--danger:hover, .button--flat.button--danger.button--active {
     color: #74000c;
     background: #ffe4e7; }
-  .button--flat.button--danger:active {
+  .button--flat.button--danger.button--active {
+    background: #fdc1c7;
     color: #c30014; }
   .button--flat.button--danger:disabled, .button--flat.button--danger.button--disabled {
     color: #bfcedd;
@@ -337,7 +344,8 @@ button {
   .button--flat.button--white:hover, .button--flat.button--white.button--active {
     color: rgba(255, 255, 255, 0.8);
     background: rgba(255, 255, 255, 0.2); }
-  .button--flat.button--white:active {
+  .button--flat.button--white.button--active {
+    background: rgba(255, 255, 255, 0.3);
     color: #fff; }
   .button--flat.button--white:disabled, .button--flat.button--white.button--disabled {
     color: #bfcedd;
@@ -422,11 +430,11 @@ button {
   overflow: auto; }
 
 .list__item {
-  border: 1px solid #dae4ed;
+  border: 1px solid #e0e9f1;
   border-top: 0;
   overflow: hidden; }
   .list__item:first-child {
-    border-top: 1px solid #dae4ed;
+    border-top: 1px solid #e0e9f1;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
   .list__item:last-child {
@@ -505,7 +513,7 @@ button {
   vertical-align: top; }
 
 .Avatar__placeholder {
-  background-color: #dae4ed;
+  background-color: #e0e9f1;
   width: 100%;
   height: 100%;
   position: relative; }
@@ -637,12 +645,12 @@ button {
 .tabs {
   list-style: none;
   display: flex;
-  border-bottom: 1px solid #dae4ed; }
+  border-bottom: 1px solid #e0e9f1; }
 
 .tabs__link {
   display: block;
   padding: 0.5rem 1.5rem;
-  color: #758fa3;
+  color: #8398a8;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
@@ -664,7 +672,7 @@ button {
 .tabs__link--panel.tabs__link--active {
   background: #fff;
   border-radius: 3px 3px 0 0;
-  box-shadow: inset 0 1px 0 0 #dae4ed, inset 1px 0 0 0 #dae4ed, inset -1px 0 0 0 #dae4ed;
+  box-shadow: inset 0 1px 0 0 #e0e9f1, inset 1px 0 0 0 #e0e9f1, inset -1px 0 0 0 #e0e9f1;
   position: relative;
   top: 1px; }
 
@@ -1142,7 +1150,7 @@ code {
  */
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #dae4ed;
+  color: #e0e9f1;
   font-family: Inconsolata, Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
   text-align: left;
@@ -1367,7 +1375,7 @@ body {
 
 .sidenav--page {
   padding: 1.5rem 0;
-  border-right: 1px solid #dae4ed;
+  border-right: 1px solid #e0e9f1;
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
@@ -1376,13 +1384,13 @@ body {
 .sidenav__group-title {
   line-height: 1em;
   padding: 0.5rem 2rem;
-  color: #4f6376;
+  color: #66778a;
   font-weight: 400;
   font-size: 1.125rem; }
 
 .sidenav__link {
   text-decoration: none;
-  color: #4f6376;
+  color: #66778a;
   display: block;
   padding: 0 1rem;
   line-height: 1.5;
@@ -1391,8 +1399,8 @@ body {
   .sidenav__link:hover {
     background: #f8f9fb; }
   .sidenav__link.active {
-    background: #dae4ed;
-    color: #3f4f5e; }
+    background: #e0e9f1;
+    color: #495866; }
 
 .alto-hr {
   margin: 1rem 0 0.9375rem;
@@ -1468,7 +1476,7 @@ body {
 .content__header {
   flex: 0 0 auto;
   padding: 0.75rem 2rem;
-  box-shadow: 0 1px 0 0 #dae4ed; }
+  box-shadow: 0 1px 0 0 #e0e9f1; }
 
 .page-header__title {
   margin-bottom: 1rem;
@@ -1601,7 +1609,7 @@ body {
 .alto-demo {
   border-radius: 3px;
   margin: 1rem 0;
-  box-shadow: 0 2px 0.25rem rgba(51, 60, 72, 0.125), inset 0 0 0 1px #dae4ed; }
+  box-shadow: 0 2px 0.25rem rgba(51, 60, 72, 0.125), inset 0 0 0 1px #e0e9f1; }
 
 .alto-example,
 .alto-demo {
@@ -1625,7 +1633,7 @@ body {
 
 .alto-example__demo {
   padding: 1rem;
-  border-bottom: 1px solid #dae4ed; }
+  border-bottom: 1px solid #e0e9f1; }
 
 .alto-demo--dark-background {
   background: #192328; }
@@ -1640,4 +1648,4 @@ body {
 .example-tabbed-content {
   background: #fff;
   border-radius: 0 0 3px 3px;
-  box-shadow: inset 0 -1px 0 0 #dae4ed, inset 1px 0 0 0 #dae4ed, inset -1px 0 0 0 #dae4ed; }
+  box-shadow: inset 0 -1px 0 0 #e0e9f1, inset 1px 0 0 0 #e0e9f1, inset -1px 0 0 0 #e0e9f1; }
