@@ -132,6 +132,8 @@ button {
     outline: none; }
   .button:disabled, .button.button--disabled {
     cursor: not-allowed; }
+  .button > .Icon:not(.Icon--left):not(.Icon--right) {
+    font-size: 1.5em; }
 
 .button--success {
   background: #208831;
@@ -182,7 +184,7 @@ button {
   font-size: 0.875rem;
   padding: 0 0.5rem;
   height: 1.5rem; }
-  .button--small .icon {
+  .button--small .Icon {
     font-size: 1rem; }
 
 .button--large {
