@@ -117,7 +117,7 @@ button {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) all; }
+  transition: all 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97), padding 0s; }
   .button:focus {
     box-shadow: 0 0 0 3px #a6d4ff; }
   .button:hover, .button.button--active {
