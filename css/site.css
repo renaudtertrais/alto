@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -15,12 +24,18 @@
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 * {
   padding: 0;
@@ -45,6 +60,15 @@ a {
   text-decoration: none;
   outline: 0; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -60,12 +84,18 @@ a {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 html {
   font-size: 16px;
@@ -74,6 +104,15 @@ html {
   background: #fff;
   line-height: 1.5; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -89,12 +128,18 @@ html {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 .button {
   background: #0074e0;
@@ -369,6 +414,15 @@ button, .tabs__link--active {
     color: #c2d0de;
     background: transparent; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -384,12 +438,18 @@ button, .tabs__link--active {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 .button-group {
   display: flex;
@@ -420,6 +480,15 @@ button, .tabs__link--active {
       .button-group > .button:disabled + :disabled, .button-group > .button:disabled:hover + :disabled {
         border-left-color: #c2d0de; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -435,55 +504,91 @@ button, .tabs__link--active {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
 
-.list {
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
+
+.List {
   background: #fff;
   list-style: none;
   overflow: auto; }
 
-.list__item {
-  border: 1px solid #e0e9f1;
-  border-top: 0;
-  overflow: hidden; }
-  .list__item:first-child {
-    border-top: 1px solid #e0e9f1;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
-  .list__item:last-child {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px; }
+.List__item {
+  padding: 0;
+  position: relative; }
+  .List__item--active, .List__item--clickable:hover {
+    background-color: #f3f9ff; }
 
-.list__item-content {
-  padding: .75rem 1.25rem;
+.List__item-row {
   display: flex;
-  flex-direction: row;
-  text-decoration: none;
+  padding: 0 0.5rem;
   align-items: center;
-  font-weight: 600;
-  color: #333c48;
-  justify-content: space-between; }
+  min-height: 4rem; }
+  .List__item-row--small {
+    min-height: 2rem;
+    padding: 0 0.25rem;
+    font-size: 0.875rem; }
 
-.list__item-content--link {
-  transition: 0.15s cubic-bezier(0.53, 0.14, 0.33, 0.97) background; }
-  .list__item-content--link:hover {
-    background: #f3f9ff;
-    color: #333c48;
-    text-decoration: none; }
-  .list__item-content--link:focus {
-    box-shadow: inset 0 0 0 3px #e1f0ff; }
+.List__item-nested-row {
+  margin-left: 1.5rem; }
+  .List__item-nested-row--bordered {
+    margin: 0.5rem;
+    margin-left: 1.5rem; }
 
-.list__item-content--active, .list__item-content--active:hover {
-  background: #0074e0;
-  color: #fff; }
-  .list__item-content--active *, .list__item-content--active:hover * {
-    color: #fff;
-    border-color: #fff; }
+.List__field {
+  padding: 0.5rem;
+  min-width: 0;
+  flex-shrink: 0; }
+  .List__field--small {
+    padding: 0.25rem; }
+  .List__field--interactive {
+    position: relative;
+    z-index: 2; }
+  .List__field--draghandle {
+    padding: 0; }
+  .List__field--primary {
+    flex: 1; }
+    .List__field--primary.List__field--button {
+      position: static;
+      cursor: pointer; }
+      .List__item:hover .List__field--primary.List__field--button::after {
+        content: '';
+        position: absolute;
+        z-index: 1;
+        background: transparent;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+  .List__field--hidden {
+    visibility: hidden; }
+    .List__item-row:hover .List__field--hidden {
+      visibility: visible; }
+
+.List__badges-list {
+  list-style: none;
+  display: flex; }
+
+.List__badge:not(:first-child) {
+  margin-left: 0.5rem; }
+
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
 
 .link {
   color: #0074e0;
@@ -500,12 +605,18 @@ button, .tabs__link--active {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 .Avatar {
   min-width: 1em;
@@ -514,16 +625,16 @@ button, .tabs__link--active {
   height: 1em;
   border-radius: 50%;
   overflow: hidden;
-  font-size: 3.5rem; }
+  font-size: 3rem; }
 
 .Avatar--small {
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .Avatar--large {
-  font-size: 5rem; }
+  font-size: 4.5rem; }
 
 .Avatar--big {
-  font-size: 8rem; }
+  font-size: 6rem; }
 
 .Avatar__image {
   width: 100%;
@@ -553,6 +664,15 @@ button, .tabs__link--active {
   transform: translateX(-50%);
   color: #a3b5c6; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -568,12 +688,18 @@ button, .tabs__link--active {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 .Alert {
   background: #f3f9ff;
@@ -638,6 +764,15 @@ button, .tabs__link--active {
   font-size: 1.125rem;
   opacity: 1; }
 
+.List__field--primary.List__field--button {
+  font: inherit;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  text-align: inherit;
+  color: currentColor; }
+
 .link {
   color: #0074e0;
   text-decoration: none;
@@ -653,12 +788,18 @@ button, .tabs__link--active {
     box-shadow: 0 0 0 3px #a6d4ff;
     border-radius: 3px; }
 
-a,
+.List__field--primary.List__field--button, a,
 button, .tabs__link--active {
   outline: 0; }
-  .focus-feedback a:focus,
+  .focus-feedback .List__field--primary.List__field--button:focus, .focus-feedback a:focus,
   .focus-feedback button:focus, .focus-feedback .tabs__link--active:focus {
     box-shadow: inset 0 0 0 2px #0074e0, inset 0 0 0 4px rgba(255, 255, 255, 0.8) !important; }
+
+.List__field:not(.List__item--nowrap) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap; }
 
 .tabs {
   list-style: none;
