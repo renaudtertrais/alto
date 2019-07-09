@@ -525,17 +525,18 @@ button, .tabs__link--active {
 .List__item {
   padding: 0;
   position: relative; }
-  .List__item--active, .List__item--clickable:hover {
+  .List__item--active, .List__item--hover, .List__item--clickable:hover {
     background-color: #f3f9ff; }
+  .List__item--active {
+    color: #0074e0; }
 
 .List__item-row {
   display: flex;
   padding: 0 0.5rem;
-  align-items: center;
-  min-height: 4rem; }
+  align-items: center; }
+  .List__item-row--small, .List__item-row--borderless {
+    padding: 0 0.25rem; }
   .List__item-row--small {
-    min-height: 2rem;
-    padding: 0 0.25rem;
     font-size: 0.875rem; }
 
 .List__item-nested-row {
@@ -548,7 +549,7 @@ button, .tabs__link--active {
   padding: 0.5rem;
   min-width: 0;
   flex-shrink: 0; }
-  .List__field--small {
+  .List__field--small, .List__field--borderless {
     padding: 0.25rem; }
   .List__field--interactive {
     position: relative;
@@ -573,6 +574,10 @@ button, .tabs__link--active {
     visibility: hidden; }
     .List__item-row:hover .List__field--hidden {
       visibility: visible; }
+  .List__field--media {
+    min-height: 4rem; }
+    .List__field--media.List__field--small {
+      min-height: 2rem; }
 
 .List__badges-list {
   list-style: none;
