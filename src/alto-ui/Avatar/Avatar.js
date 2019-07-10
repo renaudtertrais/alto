@@ -3,16 +3,26 @@ import PropTypes from 'prop-types';
 
 import { bemClass } from '../helpers/bem';
 import UserIcon from '../Icons/User';
+import ImageIcon from '../Icons/Image';
 import Image from '../Image';
-
-import './Avatar.scss';
 import Tooltip from '../Tooltip';
 
-function Avatar({ className, src, alt, tooltip, large, small, big }) {
+import './Avatar.scss';
+
+function Avatar({ className, src, alt, tooltip, large, small, big, onClick, hoverIcon }) {
   const ref = useRef();
+  const clickable = !!onClick;
+  const IconComponent = hoverIcon;
 
   return (
-    <div ref={ref} className={bemClass('Avatar', { big, large, small }, className)}>
+    <div ref={ref} className={bemClass('Avatar', { big, large, small, clickable }, className)}>
+      {clickable && (
+        <button className="Avatar__clickable-content-button" onClick={onClick}>
+          {!small && (
+            <IconComponent className={bemClass('Avatar__hover-image', { big, large })} baseline />
+          )}
+        </button>
+      )}
       <Image className="Avatar__image" src={src} alt={alt || tooltip}>
         <div className="Avatar__placeholder">
           <div className="Avatar__placeholder-icon-container">
@@ -27,7 +37,9 @@ function Avatar({ className, src, alt, tooltip, large, small, big }) {
 
 Avatar.displayName = 'Avatar';
 
-Avatar.defaultProps = {};
+Avatar.defaultProps = {
+  hoverIcon: ImageIcon,
+};
 
 Avatar.propTypes = {
   className: PropTypes.string,
@@ -37,6 +49,8 @@ Avatar.propTypes = {
   big: PropTypes.bool,
   large: PropTypes.bool,
   small: PropTypes.bool,
+  onClick: PropTypes.func,
+  hoverIcon: PropTypes.func,
 };
 
 export default Avatar;

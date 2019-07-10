@@ -28,4 +28,13 @@ storiesOf('Avatar', module)
         <Avatar src={src} small />
       </div>
     );
+  })
+  .addWithJSX('clickable', () => {
+    const src = boolean('image 404', true) ? 'foo' : 'http://i.pravatar.cc/150';
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Avatar src={src} big onClick={() => {}} />
+        <Avatar src={src} large onClick={() => {}} />
+      </div>
+    );
   });

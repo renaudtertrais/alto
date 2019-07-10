@@ -22,6 +22,50 @@
   font-size: 6rem;
 }
 
+.Avatar__hover-image {
+  position: absolute;
+  color: $grey-10;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  width: calc(3rem / 3);
+  height: calc(3rem / 3);
+  font-size: calc(3rem / 3);
+}
+
+.Avatar__hover-image--small {
+  width: calc(1.5rem / 3);
+  height: calc(1.5rem / 3);
+  font-size: calc(1.5rem / 3);
+}
+
+.Avatar__hover-image--large {
+  width: calc(4.5rem / 3);
+  height: calc(4.5rem / 3);
+  font-size: calc(4.5rem / 3);
+}
+
+.Avatar__hover-image--big {
+  width: calc(6rem / 3);
+  height: calc(6rem / 3);
+  font-size: calc(6rem / 3);
+}
+
+.Avatar__clickable-content-button {
+  text-align: center;
+  position: relative;
+  display: none;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.Avatar--clickable:hover .Avatar__clickable-content-button {
+  display: block;
+  background: $grey-70;
+}
+
 .Avatar__image {
   width: 100%;
   height: 100%;
