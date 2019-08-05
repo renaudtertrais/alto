@@ -4,6 +4,7 @@ import Downshift from 'downshift';
 
 import TextField from '../TextField';
 import Popover from '../../Popover';
+import List from '../../List';
 import CaretDown from '../../Icons/CaretDown';
 import useUniqueKey from '../../hooks/useUniqueKey';
 import getItemKey from '../../helpers/getItemKey';
@@ -20,12 +21,13 @@ const LABELS = {
   loadMore: 'Load more',
 };
 
-const renderTitle = (search, item, itemToString) => {
+const renderFields = (search, itemToString, fields) => (item, ...args) => {
+  if (typeof fields !== 'function') return fields;
   const itemStringified = itemToString(item);
-  if (!search) return itemStringified;
+  if (!search) return fields(item, itemStringified, ...args);
   const indexOfValue = itemStringified.toLowerCase().indexOf(search.toLowerCase());
 
-  return (
+  const itemToStringFromated = (
     <Fragment>
       <span className="Typeahead__not-matched">{itemStringified.slice(0, indexOfValue)}</span>
       <span className="Typeahead__matched">
@@ -36,6 +38,7 @@ const renderTitle = (search, item, itemToString) => {
       </span>
     </Fragment>
   );
+  return fields(item, itemToStringFromated, ...args);
 };
 
 function typeaheadStateReducer(state, changes) {
@@ -67,7 +70,6 @@ const Typeahead = React.forwardRef(
       itemToValue: itemToValueFromProps,
       fields,
       value,
-      defaultValue,
       onChange,
       labels: labelsProps,
       loading,
@@ -101,14 +103,11 @@ const Typeahead = React.forwardRef(
     const itemToValue = item =>
       item ? getItemKey(itemToValueFromProps)(item) || itemToString(item) : '';
     const itemFromValue = val => items.find(item => itemToValue(item) === val);
-    const getValue = () => {
-      if (itemFromValue(value)) return itemFromValue(value);
-      if (value && defaultValue) return defaultValue;
-      return '';
-    };
     const selectedItem = useMemo(
       () =>
-        value === instance.value && instance.selectedItem ? instance.selectedItem : getValue(),
+        value === instance.value && instance.selectedItem
+          ? instance.selectedItem
+          : itemFromValue(value) || '',
       [value, items]
     );
     instance.value = value;
@@ -195,7 +194,7 @@ const Typeahead = React.forwardRef(
           toggleMenu,
           closeMenu,
         }) => (
-          <FormElement {...getRootProps({ ...props, id })} label="">
+          <FormElement {...getRootProps({ ...props, id })}>
             <TextField
               {...getInputProps({
                 ...props,
@@ -249,23 +248,24 @@ const Typeahead = React.forwardRef(
             >
               {(itemsFiltered.length && (
                 <Fragment>
-                  <ul>
-                    {itemsFiltered.map((item, index) => (
-                      <li
+                  <List
+                    id={`${id}__list`}
+                    items={itemsFiltered}
+                    borderless
+                    fields={renderFields(search, itemToString, fields)}
+                    hover={(item, index) => highlightedIndex === index}
+                    // active={item => itemToValue(item) === value}
+                    renderItem={(render, item, _, index) => (
+                      // eslint-disable-next-line jsx-a11y/no-static-element-interactions
+                      <div
                         {...getItemProps({ key: getKey(item), index, item })}
-                        className={bemClass('Typeahead__item', {
-                          hover: highlightedIndex === index,
-                        })}
+                        onMouseDown={() => selectItem(item)}
+                        className="Typeahead__item"
                       >
-                        <button
-                          className="Typeahead__item-button"
-                          onMouseDown={() => selectItem(item)}
-                        >
-                          {renderTitle(search, item, itemToString)}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
+                        {render()}
+                      </div>
+                    )}
+                  />
                   {!loading && isPaginated && (
                     <Button
                       className="Typeahead__load-more"
@@ -319,7 +319,6 @@ Typeahead.defaultProps = {
 
 Typeahead.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  defaultValue: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   onChange: PropTypes.func,
   id: PropTypes.string,
   itemToString: PropTypes.func,
