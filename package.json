@@ -2,7 +2,7 @@
   "name": "alto",
   "version": "0.21.8",
   "main": "index.js",
-  "repository": "https://github.com/renaudtertrais/alto",
+  "repository": "https://github.com/renaud.t/alto",
   "author": "Renaud Tertrais <renaud.tertrais@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -14,14 +14,13 @@
     "lint": "npm run lint:script && npm run lint:style",
     "clean:build": "rimraf build",
     "clean:dist": "rimraf dist",
-    "build:storybook": "cross-env NODE_ENV=development build-storybook -c .storybook -o build/storybook",
+    "build:storybook": "cross-env NODE_ENV=development build-storybook -c .storybook -o build",
     "start:storybook": "start-storybook -p 9006 -c .storybook",
     "prebuild:alto-ui": "npm run lint && npm run test && npm run clean:dist && copyfiles ./package.json ./README.md ./dist",
     "build:alto-ui": "cross-env NODE_ENV=production babel ./src -d ./dist --copy-files --ignore story,__tests__,README.md",
     "watch:alto-ui": "cross-env NODE_ENV=production babel ./src -d ./dist -w --copy-files --ignore story,__tests__,README.md",
-    "prebuild:all": "npm run clean:build && npm run lint && npm run test",
-    "build:all": "npm run build:storybook",
-    "predeploy": "npm run build:all",
+    "prebuild": "npm run clean:build && npm run lint && npm run test",
+    "predeploy": "npm run clean:build && npm run lint && npm run test && npm run build:storybook",
     "deploy": "gh-pages -d build",
     "build": "npm run build:alto-ui",
     "watch": "npm run watch:alto-ui",
@@ -146,5 +145,9 @@
       "!src/**/index.js",
       "!src/**/story.js"
     ]
+  },
+  "jest-junit": {
+    "suiteName": "Alto UI jest tests",
+    "output": "./coverage/junit.xml"
   }
 }

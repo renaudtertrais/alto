@@ -1,3 +1,3 @@
 # Alto React Components
 
-- [Storybook](https://renaudtertrais.github.io/alto/storybook)
+- [Storybook](https://renaudtertrais.github.io/alto)
