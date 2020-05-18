@@ -55,7 +55,7 @@ const renderField = (field, item, itemIndex, id, handleChange, onClick, active, 
   const data = getFieldData(item, field);
   const value = field.render ? field.render(data, item, field) : data;
   const props =
-    typeof field.props === 'function' ? field.props(data, item, itemIndex) : field.props;
+    typeof field.props === 'function' ? field.props(data, item, itemIndex) : field.props || {};
 
   switch (field.type) {
     case 'media':
