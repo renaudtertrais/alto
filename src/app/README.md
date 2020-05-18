@@ -1,1 +1,0 @@
-# Alto Design Sytem website

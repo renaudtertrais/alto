@@ -1,8 +1,8 @@
 {
-  "name": "@beqom/alto-ui",
+  "name": "alto",
   "version": "0.21.8",
   "main": "index.js",
-  "repository": "https://github.com/beqom/alto",
+  "repository": "https://github.com/renaudtertrais/alto",
   "author": "Renaud Tertrais <renaud.tertrais@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -17,15 +17,10 @@
     "build:storybook": "cross-env NODE_ENV=development build-storybook -c .storybook -o build/storybook",
     "start:storybook": "start-storybook -p 9006 -c .storybook",
     "prebuild:alto-ui": "npm run lint && npm run test && npm run clean:dist && copyfiles ./package.json ./README.md ./dist",
-    "build:alto-ui": "cross-env NODE_ENV=production babel ./src/alto-ui -d ./dist --copy-files --ignore story,__tests__,README.md",
-    "watch:alto-ui": "cross-env NODE_ENV=production babel ./src/alto-ui -d ./dist -w --copy-files --ignore story,__tests__,README.md",
-    "sass:app": "node-sass ./src/app/scss/site.scss ./src/app/static/css/site.css",
-    "hugo:app": "hugo --source ./src/app -d ../../build",
-    "serve:app": "browser-sync start --config ./bs-config.js",
-    "build:app": "npm run sass:app && npm run hugo:app",
-    "start:app": "npm run sass:app -- -w | npm run hugo:app -- --watch | npm run serve:app",
+    "build:alto-ui": "cross-env NODE_ENV=production babel ./src -d ./dist --copy-files --ignore story,__tests__,README.md",
+    "watch:alto-ui": "cross-env NODE_ENV=production babel ./src -d ./dist -w --copy-files --ignore story,__tests__,README.md",
     "prebuild:all": "npm run clean:build && npm run lint && npm run test",
-    "build:all": "npm run build:app && npm run build:storybook",
+    "build:all": "npm run build:storybook",
     "predeploy": "npm run build:all",
     "deploy": "gh-pages -d build",
     "build": "npm run build:alto-ui",
@@ -66,7 +61,6 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "gh-pages": "^1.0.0",
     "github-markdown-css": "^2.9.0",
-    "hugo-cli": "^0.5.4",
     "jest-cli": "^24.9.0",
     "jest-junit": "^7.0.0",
     "jquery": "^3.4.1",
@@ -146,15 +140,11 @@
     ],
     "collectCoverage": false,
     "collectCoverageFrom": [
-      "src/alto-ui/**/*.{js,jsx}",
-      "src/alto-ui/*.{js,jsx}",
-      "!src/alto-ui/**/__tests__/*",
-      "!src/alto-ui/**/index.js",
-      "!src/alto-ui/**/story.js"
+      "src/**/*.{js,jsx}",
+      "src/*.{js,jsx}",
+      "!src/**/__tests__/*",
+      "!src/**/index.js",
+      "!src/**/story.js"
     ]
-  },
-  "jest-junit": {
-    "suiteName": "Alto UI jest tests",
-    "output": "./coverage/junit.xml"
   }
 }

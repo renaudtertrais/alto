@@ -1,1 +1,294 @@
-{"numFailedTestSuites":0,"numFailedTests":0,"numPassedTestSuites":4,"numPassedTests":32,"numPendingTestSuites":0,"numPendingTests":0,"numRuntimeErrorTestSuites":0,"numTotalTestSuites":4,"numTotalTests":32,"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesUnmatched":0,"filesUpdated":0,"matched":0,"total":0,"unchecked":0,"unmatched":0,"updated":0},"startTime":1517485905931,"success":true,"testResults":[{"assertionResults":[{"ancestorTitles":["<Button />"],"failureMessages":[],"fullName":"<Button /> should render a button component","status":"passed","title":"should render a button component"},{"ancestorTitles":["<Button />"],"failureMessages":[],"fullName":"<Button /> should render a Link conponent if props.href is defined","status":"passed","title":"should render a Link conponent if props.href is defined"},{"ancestorTitles":["<Button />"],"failureMessages":[],"fullName":"<Button /> should support severals modifiers","status":"passed","title":"should support severals modifiers"},{"ancestorTitles":["<Button />"],"failureMessages":[],"fullName":"<Button /> should add prop.className","status":"passed","title":"should add prop.className"},{"ancestorTitles":["<Button />"],"failureMessages":[],"fullName":"<Button /> should foward any other props","status":"passed","title":"should foward any other props"}],"endTime":1517485907419,"message":"","name":"/Users/renaudtertrais/beqom/alto/src/alto-ui/Button/__tests__/Button.test.js","startTime":1517485907259,"status":"passed","summary":""},{"assertionResults":[{"ancestorTitles":["Classic case: "],"failureMessages":[],"fullName":"Classic case:  render the page buttons","status":"passed","title":"render the page buttons"},{"ancestorTitles":["Classic case: "],"failureMessages":[],"fullName":"Classic case:  render current page","status":"passed","title":"render current page"},{"ancestorTitles":["Classic case: "],"failureMessages":[],"fullName":"Classic case:  render ellispsis","status":"passed","title":"render ellispsis"},{"ancestorTitles":["onClick event: "],"failureMessages":[],"fullName":"onClick event:  clicking on page buttons","status":"passed","title":"clicking on page buttons"},{"ancestorTitles":["onClick event: "],"failureMessages":[],"fullName":"onClick event:  clicking left arrow","status":"passed","title":"clicking left arrow"},{"ancestorTitles":["onClick event: "],"failureMessages":[],"fullName":"onClick event:  clicking right arrow","status":"passed","title":"clicking right arrow"},{"ancestorTitles":["Buttons edge cases: "],"failureMessages":[],"fullName":"Buttons edge cases:  render nothing if max === 0","status":"passed","title":"render nothing if max === 0"},{"ancestorTitles":["Buttons edge cases: "],"failureMessages":[],"fullName":"Buttons edge cases:  render nothing if max < 0","status":"passed","title":"render nothing if max < 0"},{"ancestorTitles":["Buttons edge cases: "],"failureMessages":[],"fullName":"Buttons edge cases:  render current page 1 if current === 0","status":"passed","title":"render current page 1 if current === 0"},{"ancestorTitles":["Buttons edge cases: "],"failureMessages":[],"fullName":"Buttons edge cases:  render current page 1 if current < 0","status":"passed","title":"render current page 1 if current < 0"},{"ancestorTitles":["Buttons edge cases: "],"failureMessages":[],"fullName":"Buttons edge cases:  render current page as max if current < max","status":"passed","title":"render current page as max if current < max"},{"ancestorTitles":["Ellipsis edge cases: "],"failureMessages":[],"fullName":"Ellipsis edge cases:  0: < [1] 2 3 >","status":"passed","title":"0: < [1] 2 3 >"},{"ancestorTitles":["Ellipsis edge cases: "],"failureMessages":[],"fullName":"Ellipsis edge cases:  0: < 1 2 [3] 4 5 >","status":"passed","title":"0: < 1 2 [3] 4 5 >"},{"ancestorTitles":["Arrows disabled state: "],"failureMessages":[],"fullName":"Arrows disabled state:  render arrows not disabled if 1 < current < max","status":"passed","title":"render arrows not disabled if 1 < current < max"},{"ancestorTitles":["Arrows disabled state: "],"failureMessages":[],"fullName":"Arrows disabled state:  first disabled if current === 1","status":"passed","title":"first disabled if current === 1"},{"ancestorTitles":["Arrows disabled state: "],"failureMessages":[],"fullName":"Arrows disabled state:  last disabled if current === max","status":"passed","title":"last disabled if current === max"}],"endTime":1517485907667,"message":"","name":"/Users/renaudtertrais/beqom/alto/src/alto-ui/Pagination/__tests__/Pagination.test.js","startTime":1517485907529,"status":"passed","summary":""},{"assertionResults":[{"ancestorTitles":["getTheme(...path)"],"failureMessages":[],"fullName":"getTheme(...path) should find a simple key value","status":"passed","title":"should find a simple key value"},{"ancestorTitles":["getTheme(...path)"],"failureMessages":[],"fullName":"getTheme(...path) should find a deep key value","status":"passed","title":"should find a deep key value"},{"ancestorTitles":["getTheme(...path)"],"failureMessages":[],"fullName":"getTheme(...path) should return undefined if the path does not exist","status":"passed","title":"should return undefined if the path does not exist"},{"ancestorTitles":["getColor(color, [shade])"],"failureMessages":[],"fullName":"getColor(color, [shade]) should find a color from palette","status":"passed","title":"should find a color from palette"},{"ancestorTitles":["getColor(color, [shade])"],"failureMessages":[],"fullName":"getColor(color, [shade]) should find a color from palette with shade","status":"passed","title":"should find a color from palette with shade"},{"ancestorTitles":["getColor(color, [shade])"],"failureMessages":[],"fullName":"getColor(color, [shade]) should find a color from colors","status":"passed","title":"should find a color from colors"},{"ancestorTitles":["getColor(color, [shade])"],"failureMessages":[],"fullName":"getColor(color, [shade]) should find a color from colors with shade","status":"passed","title":"should find a color from colors with shade"},{"ancestorTitles":["getColor(color, [shade])"],"failureMessages":[],"fullName":"getColor(color, [shade]) should be able to split color to find shade","status":"passed","title":"should be able to split color to find shade"}],"endTime":1517485907802,"message":"","name":"/Users/renaudtertrais/beqom/alto/src/alto-ui/helpers/__tests__/theme.test.js","startTime":1517485907772,"status":"passed","summary":""},{"assertionResults":[{"ancestorTitles":["bemClass()"],"failureMessages":[],"fullName":"bemClass() should return the block if no modifiers defined","status":"passed","title":"should return the block if no modifiers defined"},{"ancestorTitles":["bemClass()"],"failureMessages":[],"fullName":"bemClass() should return the className with all modifier classes","status":"passed","title":"should return the className with all modifier classes"},{"ancestorTitles":["bemClass()"],"failureMessages":[],"fullName":"bemClass() should allow adding extra classes after modifiers","status":"passed","title":"should allow adding extra classes after modifiers"}],"endTime":1517485907928,"message":"","name":"/Users/renaudtertrais/beqom/alto/src/alto-ui/helpers/__tests__/bem.test.js","startTime":1517485907900,"status":"passed","summary":""}],"wasInterrupted":false}
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 32,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 32,
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1517485905931,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["<Button />"],
+          "failureMessages": [],
+          "fullName": "<Button /> should render a button component",
+          "status": "passed",
+          "title": "should render a button component"
+        },
+        {
+          "ancestorTitles": ["<Button />"],
+          "failureMessages": [],
+          "fullName": "<Button /> should render a Link conponent if props.href is defined",
+          "status": "passed",
+          "title": "should render a Link conponent if props.href is defined"
+        },
+        {
+          "ancestorTitles": ["<Button />"],
+          "failureMessages": [],
+          "fullName": "<Button /> should support severals modifiers",
+          "status": "passed",
+          "title": "should support severals modifiers"
+        },
+        {
+          "ancestorTitles": ["<Button />"],
+          "failureMessages": [],
+          "fullName": "<Button /> should add prop.className",
+          "status": "passed",
+          "title": "should add prop.className"
+        },
+        {
+          "ancestorTitles": ["<Button />"],
+          "failureMessages": [],
+          "fullName": "<Button /> should foward any other props",
+          "status": "passed",
+          "title": "should foward any other props"
+        }
+      ],
+      "endTime": 1517485907419,
+      "message": "",
+      "name": "/Users/renaudtertrais/beqom/alto/src/Button/__tests__/Button.test.js",
+      "startTime": 1517485907259,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["Classic case: "],
+          "failureMessages": [],
+          "fullName": "Classic case:  render the page buttons",
+          "status": "passed",
+          "title": "render the page buttons"
+        },
+        {
+          "ancestorTitles": ["Classic case: "],
+          "failureMessages": [],
+          "fullName": "Classic case:  render current page",
+          "status": "passed",
+          "title": "render current page"
+        },
+        {
+          "ancestorTitles": ["Classic case: "],
+          "failureMessages": [],
+          "fullName": "Classic case:  render ellispsis",
+          "status": "passed",
+          "title": "render ellispsis"
+        },
+        {
+          "ancestorTitles": ["onClick event: "],
+          "failureMessages": [],
+          "fullName": "onClick event:  clicking on page buttons",
+          "status": "passed",
+          "title": "clicking on page buttons"
+        },
+        {
+          "ancestorTitles": ["onClick event: "],
+          "failureMessages": [],
+          "fullName": "onClick event:  clicking left arrow",
+          "status": "passed",
+          "title": "clicking left arrow"
+        },
+        {
+          "ancestorTitles": ["onClick event: "],
+          "failureMessages": [],
+          "fullName": "onClick event:  clicking right arrow",
+          "status": "passed",
+          "title": "clicking right arrow"
+        },
+        {
+          "ancestorTitles": ["Buttons edge cases: "],
+          "failureMessages": [],
+          "fullName": "Buttons edge cases:  render nothing if max === 0",
+          "status": "passed",
+          "title": "render nothing if max === 0"
+        },
+        {
+          "ancestorTitles": ["Buttons edge cases: "],
+          "failureMessages": [],
+          "fullName": "Buttons edge cases:  render nothing if max < 0",
+          "status": "passed",
+          "title": "render nothing if max < 0"
+        },
+        {
+          "ancestorTitles": ["Buttons edge cases: "],
+          "failureMessages": [],
+          "fullName": "Buttons edge cases:  render current page 1 if current === 0",
+          "status": "passed",
+          "title": "render current page 1 if current === 0"
+        },
+        {
+          "ancestorTitles": ["Buttons edge cases: "],
+          "failureMessages": [],
+          "fullName": "Buttons edge cases:  render current page 1 if current < 0",
+          "status": "passed",
+          "title": "render current page 1 if current < 0"
+        },
+        {
+          "ancestorTitles": ["Buttons edge cases: "],
+          "failureMessages": [],
+          "fullName": "Buttons edge cases:  render current page as max if current < max",
+          "status": "passed",
+          "title": "render current page as max if current < max"
+        },
+        {
+          "ancestorTitles": ["Ellipsis edge cases: "],
+          "failureMessages": [],
+          "fullName": "Ellipsis edge cases:  0: < [1] 2 3 >",
+          "status": "passed",
+          "title": "0: < [1] 2 3 >"
+        },
+        {
+          "ancestorTitles": ["Ellipsis edge cases: "],
+          "failureMessages": [],
+          "fullName": "Ellipsis edge cases:  0: < 1 2 [3] 4 5 >",
+          "status": "passed",
+          "title": "0: < 1 2 [3] 4 5 >"
+        },
+        {
+          "ancestorTitles": ["Arrows disabled state: "],
+          "failureMessages": [],
+          "fullName": "Arrows disabled state:  render arrows not disabled if 1 < current < max",
+          "status": "passed",
+          "title": "render arrows not disabled if 1 < current < max"
+        },
+        {
+          "ancestorTitles": ["Arrows disabled state: "],
+          "failureMessages": [],
+          "fullName": "Arrows disabled state:  first disabled if current === 1",
+          "status": "passed",
+          "title": "first disabled if current === 1"
+        },
+        {
+          "ancestorTitles": ["Arrows disabled state: "],
+          "failureMessages": [],
+          "fullName": "Arrows disabled state:  last disabled if current === max",
+          "status": "passed",
+          "title": "last disabled if current === max"
+        }
+      ],
+      "endTime": 1517485907667,
+      "message": "",
+      "name": "/Users/renaudtertrais/beqom/alto/src/Pagination/__tests__/Pagination.test.js",
+      "startTime": 1517485907529,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["getTheme(...path)"],
+          "failureMessages": [],
+          "fullName": "getTheme(...path) should find a simple key value",
+          "status": "passed",
+          "title": "should find a simple key value"
+        },
+        {
+          "ancestorTitles": ["getTheme(...path)"],
+          "failureMessages": [],
+          "fullName": "getTheme(...path) should find a deep key value",
+          "status": "passed",
+          "title": "should find a deep key value"
+        },
+        {
+          "ancestorTitles": ["getTheme(...path)"],
+          "failureMessages": [],
+          "fullName": "getTheme(...path) should return undefined if the path does not exist",
+          "status": "passed",
+          "title": "should return undefined if the path does not exist"
+        },
+        {
+          "ancestorTitles": ["getColor(color, [shade])"],
+          "failureMessages": [],
+          "fullName": "getColor(color, [shade]) should find a color from palette",
+          "status": "passed",
+          "title": "should find a color from palette"
+        },
+        {
+          "ancestorTitles": ["getColor(color, [shade])"],
+          "failureMessages": [],
+          "fullName": "getColor(color, [shade]) should find a color from palette with shade",
+          "status": "passed",
+          "title": "should find a color from palette with shade"
+        },
+        {
+          "ancestorTitles": ["getColor(color, [shade])"],
+          "failureMessages": [],
+          "fullName": "getColor(color, [shade]) should find a color from colors",
+          "status": "passed",
+          "title": "should find a color from colors"
+        },
+        {
+          "ancestorTitles": ["getColor(color, [shade])"],
+          "failureMessages": [],
+          "fullName": "getColor(color, [shade]) should find a color from colors with shade",
+          "status": "passed",
+          "title": "should find a color from colors with shade"
+        },
+        {
+          "ancestorTitles": ["getColor(color, [shade])"],
+          "failureMessages": [],
+          "fullName": "getColor(color, [shade]) should be able to split color to find shade",
+          "status": "passed",
+          "title": "should be able to split color to find shade"
+        }
+      ],
+      "endTime": 1517485907802,
+      "message": "",
+      "name": "/Users/renaudtertrais/beqom/alto/src/helpers/__tests__/theme.test.js",
+      "startTime": 1517485907772,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["bemClass()"],
+          "failureMessages": [],
+          "fullName": "bemClass() should return the block if no modifiers defined",
+          "status": "passed",
+          "title": "should return the block if no modifiers defined"
+        },
+        {
+          "ancestorTitles": ["bemClass()"],
+          "failureMessages": [],
+          "fullName": "bemClass() should return the className with all modifier classes",
+          "status": "passed",
+          "title": "should return the className with all modifier classes"
+        },
+        {
+          "ancestorTitles": ["bemClass()"],
+          "failureMessages": [],
+          "fullName": "bemClass() should allow adding extra classes after modifiers",
+          "status": "passed",
+          "title": "should allow adding extra classes after modifiers"
+        }
+      ],
+      "endTime": 1517485907928,
+      "message": "",
+      "name": "/Users/renaudtertrais/beqom/alto/src/helpers/__tests__/bem.test.js",
+      "startTime": 1517485907900,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

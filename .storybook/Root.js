@@ -1,6 +1,6 @@
 import React from 'react';
-import '../src/alto-ui/scss/index.scss';
-import addFocusFeedbackListener from '../src/alto-ui/addFocusFeedbackListener';
+import '../src/scss/index.scss';
+import addFocusFeedbackListener from '../src/addFocusFeedbackListener';
 
 class Root extends React.Component {
   constructor() {

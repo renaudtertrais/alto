@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="257" failures="0" time="21.063">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="1.384" tests="1">
+    <testcase classname=" fix Avatar Tests" name=" fix Avatar Tests" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="ButtonGroup" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="2.497" tests="12">
+    <testcase classname="ButtonGroup is ButtonGroup" name="ButtonGroup is ButtonGroup" time="0.003">
+    </testcase>
+    <testcase classname="ButtonGroup has less then two items" name="ButtonGroup has less then two items" time="0.004">
+    </testcase>
+    <testcase classname="ButtonGroup has more then two items" name="ButtonGroup has more then two items" time="0.001">
+    </testcase>
+    <testcase classname="ButtonGroup has title of buttons" name="ButtonGroup has title of buttons" time="0.002">
+    </testcase>
+    <testcase classname="ButtonGroup has additional class" name="ButtonGroup has additional class" time="0.001">
+    </testcase>
+    <testcase classname="ButtonGroup has each button with small flag" name="ButtonGroup has each button with small flag" time="0.002">
+    </testcase>
+    <testcase classname="ButtonGroup has no active buttons" name="ButtonGroup has no active buttons" time="0.001">
+    </testcase>
+    <testcase classname="ButtonGroup has only second button as active on default" name="ButtonGroup has only second button as active on default" time="0.002">
+    </testcase>
+    <testcase classname="ButtonGroup Toggle tests More than two buttons test case has no effect on click on active button" name="ButtonGroup Toggle tests More than two buttons test case has no effect on click on active button" time="0.002">
+    </testcase>
+    <testcase classname="ButtonGroup Toggle tests More than two buttons test case call onChange with first one" name="ButtonGroup Toggle tests More than two buttons test case call onChange with first one" time="0.002">
+    </testcase>
+    <testcase classname="ButtonGroup Toggle tests More than two buttons test case call onChange with last one" name="ButtonGroup Toggle tests More than two buttons test case call onChange with last one" time="0">
+    </testcase>
+    <testcase classname="ButtonGroup Toggle tests More than two buttons test case callbacks two times" name="ButtonGroup Toggle tests More than two buttons test case callbacks two times" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="InputNumber/helpers" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="2.665" tests="8">
+    <testcase classname="InputNumber/helpers should round correctly depending on value and precision" name="InputNumber/helpers should round correctly depending on value and precision" time="0.071">
+    </testcase>
+    <testcase classname="InputNumber/helpers should format correctly depending on value, locale and precision" name="InputNumber/helpers should format correctly depending on value, locale and precision" time="0.037">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should return NaN for non string and number" name="InputNumber/helpers parse should return NaN for non string and number" time="0.001">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should parse correctly a number" name="InputNumber/helpers parse should parse correctly a number" time="0.001">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should parse correctly a stringified number" name="InputNumber/helpers parse should parse correctly a stringified number" time="0.001">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should parse correctly a EN formatted number" name="InputNumber/helpers parse should parse correctly a EN formatted number" time="0.001">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should parse correctly a DE formatted number" name="InputNumber/helpers parse should parse correctly a DE formatted number" time="0.001">
+    </testcase>
+    <testcase classname="InputNumber/helpers parse should parse correctly a FR formatted number" name="InputNumber/helpers parse should parse correctly a FR formatted number" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Button /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="3.278" tests="6">
+    <testcase classname="&lt;Button /&gt; should render a buttons component" name="&lt;Button /&gt; should render a buttons component" time="0.047">
+    </testcase>
+    <testcase classname="&lt;Button /&gt; should render a Link conponent if props.href is defined" name="&lt;Button /&gt; should render a Link conponent if props.href is defined" time="0.002">
+    </testcase>
+    <testcase classname="&lt;Button /&gt; should render a custom conponent if props.tag is defined" name="&lt;Button /&gt; should render a custom conponent if props.tag is defined" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Button /&gt; should support severals modifiers" name="&lt;Button /&gt; should support severals modifiers" time="0.016">
+    </testcase>
+    <testcase classname="&lt;Button /&gt; should add prop.className" name="&lt;Button /&gt; should add prop.className" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Button /&gt; should foward any other props" name="&lt;Button /&gt; should foward any other props" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;CheckBox /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="3.135" tests="4">
+    <testcase classname="&lt;CheckBox /&gt; should render correctly" name="&lt;CheckBox /&gt; should render correctly" time="0.066">
+    </testcase>
+    <testcase classname="&lt;CheckBox /&gt; should render correctly the &lt;input /&gt;" name="&lt;CheckBox /&gt; should render correctly the &lt;input /&gt;" time="0.001">
+    </testcase>
+    <testcase classname="&lt;CheckBox /&gt; should spread the good props to the &lt;input /&gt;" name="&lt;CheckBox /&gt; should spread the good props to the &lt;input /&gt;" time="0.001">
+    </testcase>
+    <testcase classname="&lt;CheckBox /&gt; should render correctly the &lt;label /&gt;" name="&lt;CheckBox /&gt; should render correctly the &lt;label /&gt;" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="isIE11()" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:58" time="1.193" tests="2">
+    <testcase classname="isIE11() should return true if it is IE11 userAgent" name="isIE11() should return true if it is IE11 userAgent" time="0.001">
+    </testcase>
+    <testcase classname="isIE11() should return false if it is not IE11 userAgent" name="isIE11() should return false if it is not IE11 userAgent" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Icon /&gt; (used in icons)" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="3.091" tests="10">
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a &lt;i /&gt; correctly" name="&lt;Icon /&gt; (used in icons) should render a &lt;i /&gt; correctly" time="0.034">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a &lt;svg /&gt; with the good props" name="&lt;Icon /&gt; (used in icons) should render a &lt;svg /&gt; with the good props" time="0.002">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a the children function with the good param" name="&lt;Icon /&gt; (used in icons) should render a the children function with the good param" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render foward props" name="&lt;Icon /&gt; (used in icons) should render foward props" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should add modifier" name="&lt;Icon /&gt; (used in icons) should add modifier" time="0.04">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a &lt;button /&gt; if props.onClick" name="&lt;Icon /&gt; (used in icons) should render a &lt;button /&gt; if props.onClick" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should have the good style if props.size is set" name="&lt;Icon /&gt; (used in icons) should have the good style if props.size is set" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should have the good style if props.size is set and it is a button" name="&lt;Icon /&gt; (used in icons) should have the good style if props.size is set and it is a button" time="0">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a &lt;VisuallyHidden /&gt; with props.a11yLabel" name="&lt;Icon /&gt; (used in icons) should render a &lt;VisuallyHidden /&gt; with props.a11yLabel" time="0.037">
+    </testcase>
+    <testcase classname="&lt;Icon /&gt; (used in icons) should render a badge (&lt;circle /&gt;) if props.badged is true" name="&lt;Icon /&gt; (used in icons) should render a badge (&lt;circle /&gt;) if props.badged is true" time="0.052">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;FileInput /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="3.174" tests="3">
+    <testcase classname="&lt;FileInput /&gt; should render a input[type=file] component with the good props" name="&lt;FileInput /&gt; should render a input[type=file] component with the good props" time="0.038">
+    </testcase>
+    <testcase classname="&lt;FileInput /&gt; should render a label with a Button component with the good props" name="&lt;FileInput /&gt; should render a label with a Button component with the good props" time="0.05">
+    </testcase>
+    <testcase classname="&lt;FileInput /&gt; should support button props" name="&lt;FileInput /&gt; should support button props" time="0.053">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Breadcrumb /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="3.601" tests="7">
+    <testcase classname="&lt;Breadcrumb /&gt; should not render if no items are provided" name="&lt;Breadcrumb /&gt; should not render if no items are provided" time="0.058">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should render with all items" name="&lt;Breadcrumb /&gt; should render with all items" time="0.002">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should support className and id prop" name="&lt;Breadcrumb /&gt; should support className and id prop" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should render correctly first item" name="&lt;Breadcrumb /&gt; should render correctly first item" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should render correctly non-first items" name="&lt;Breadcrumb /&gt; should render correctly non-first items" time="0.002">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should render with 1 item" name="&lt;Breadcrumb /&gt; should render with 1 item" time="0.017">
+    </testcase>
+    <testcase classname="&lt;Breadcrumb /&gt; should render correctly first item if only one item is provided" name="&lt;Breadcrumb /&gt; should render correctly first item if only one item is provided" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Alert /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:55" time="4.161" tests="10">
+    <testcase classname="&lt;Alert /&gt; should render null if show is false" name="&lt;Alert /&gt; should render null if show is false" time="0.016">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should support severals modifiers" name="&lt;Alert /&gt; should support severals modifiers" time="0.003">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should support closable modifier" name="&lt;Alert /&gt; should support closable modifier" time="0">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render CheckCircleIcon if success" name="&lt;Alert /&gt; should render CheckCircleIcon if success" time="0.03">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render ExclamationTriangleIcon if warning" name="&lt;Alert /&gt; should render ExclamationTriangleIcon if warning" time="0.004">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render ExclamationCircleIcon if error" name="&lt;Alert /&gt; should render ExclamationCircleIcon if error" time="0.018">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render InfoCircleIcon in others case" name="&lt;Alert /&gt; should render InfoCircleIcon in others case" time="0.004">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render alertMessage with children" name="&lt;Alert /&gt; should render alertMessage with children" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should not render CloseIcon if there is no onClose" name="&lt;Alert /&gt; should not render CloseIcon if there is no onClose" time="0.003">
+    </testcase>
+    <testcase classname="&lt;Alert /&gt; should render CloseIcon with onClick prop if there is onClose" name="&lt;Alert /&gt; should render CloseIcon with onClick prop if there is onClose" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="bemClass()" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:33:00" time="0.136" tests="3">
+    <testcase classname="bemClass() should return the block if no modifiers defined" name="bemClass() should return the block if no modifiers defined" time="0.001">
+    </testcase>
+    <testcase classname="bemClass() should return the className with all modifier classes" name="bemClass() should return the className with all modifier classes" time="0">
+    </testcase>
+    <testcase classname="bemClass() should allow adding extra classes after modifiers" name="bemClass() should allow adding extra classes after modifiers" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:33:00" time="0.297" tests="1">
+    <testcase classname=" fix Card Tests" name=" fix Card Tests" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;ColorPicker /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:59" time="0.48" tests="3">
+    <testcase classname="&lt;ColorPicker /&gt; should render a input[type=radio] component with the good props" name="&lt;ColorPicker /&gt; should render a input[type=radio] component with the good props" time="0.003">
+    </testcase>
+    <testcase classname="&lt;ColorPicker /&gt; should render a label component with the good props" name="&lt;ColorPicker /&gt; should render a label component with the good props" time="0.001">
+    </testcase>
+    <testcase classname="&lt;ColorPicker /&gt; should render a the prop.label in a VisuallyHidden component inside the &lt;label /&gt;" name="&lt;ColorPicker /&gt; should render a the prop.label in a VisuallyHidden component inside the &lt;label /&gt;" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;Media /&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="4.593" tests="6">
+    <testcase classname="&lt;Media /&gt; should render a button component" name="&lt;Media /&gt; should render a button component" time="0.007">
+    </testcase>
+    <testcase classname="&lt;Media /&gt; should support severals modifiers" name="&lt;Media /&gt; should support severals modifiers" time="0.002">
+    </testcase>
+    <testcase classname="&lt;Media /&gt; should support className props" name="&lt;Media /&gt; should support className props" time="0">
+    </testcase>
+    <testcase classname="&lt;Media /&gt; should render an &lt;Avatar /&gt;" name="&lt;Media /&gt; should render an &lt;Avatar /&gt;" time="0.021">
+    </testcase>
+    <testcase classname="&lt;Media /&gt; should render the title" name="&lt;Media /&gt; should render the title" time="0.001">
+    </testcase>
+    <testcase classname="&lt;Media /&gt; should render a subtitle if defined" name="&lt;Media /&gt; should render a subtitle if defined" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Pagination Component" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:32:56" time="6.669" tests="15">
+    <testcase classname="Pagination Component should render items range" name="Pagination Component should render items range" time="0.052">
+    </testcase>
+    <testcase classname="Pagination Component should render of totalRecords" name="Pagination Component should render of totalRecords" time="0.009">
+    </testcase>
+    <testcase classname="Pagination Component should render proper range if last page is not full pageSize" name="Pagination Component should render proper range if last page is not full pageSize" time="0.008">
+    </testcase>
+    <testcase classname="Pagination Component should render nothing when there is no elements" name="Pagination Component should render nothing when there is no elements" time="0.002">
+    </testcase>
+    <testcase classname="Pagination Component should render render pagination with default pageSize" name="Pagination Component should render render pagination with default pageSize" time="0.01">
+    </testcase>
+    <testcase classname="Pagination Component should render render proper range even current page is wrong" name="Pagination Component should render render proper range even current page is wrong" time="0.009">
+    </testcase>
+    <testcase classname="Pagination Component onChange event:  clicking on prev page" name="Pagination Component onChange event:  clicking on prev page" time="0.011">
+    </testcase>
+    <testcase classname="Pagination Component onChange event:  clicking on next page" name="Pagination Component onChange event:  clicking on next page" time="0.007">
+    </testcase>
+    <testcase classname="Pagination Component Arrows disabled prev arrow when currentPage is 1 " name="Pagination Component Arrows disabled prev arrow when currentPage is 1 " time="0.006">
+    </testcase>
+    <testcase classname="Pagination Component Arrows disabled next arrow when currentPage === last page" name="Pagination Component Arrows disabled next arrow when currentPage === last page" time="0.006">
+    </testcase>
+    <testcase classname="Pagination Component Arrows click prev arrow should be disabled" name="Pagination Component Arrows click prev arrow should be disabled" time="0.011">
+    </testcase>
+    <testcase classname="Pagination Component Arrows click next arrow should be disabled when current === last" name="Pagination Component Arrows click next arrow should be disabled when current === last" time="0.006">
+    </testcase>
+    <testcase classname="Pagination Component pagination dropdown should display dropdown after click" name="Pagination Component pagination dropdown should display dropdown after click" time="0.023">
+    </testcase>
+    <testcase classname="Pagination Component pagination dropdown should close dropdown when cancel" name="Pagination Component pagination dropdown should close dropdown when cancel" time="0.018">
+    </testcase>
+    <testcase classname="Pagination Component pagination dropdown should call onChange when save" name="Pagination Component pagination dropdown should call onChange when save" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="icons" errors="0" failures="0" skipped="0" timestamp="2020-05-18T02:33:00" time="5.769" tests="166">
+    <testcase classname="icons &lt;Add /&gt; default" name="icons &lt;Add /&gt; default" time="0.006">
+    </testcase>
+    <testcase classname="icons &lt;Analytics /&gt; default" name="icons &lt;Analytics /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Anchor /&gt; default" name="icons &lt;Anchor /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;AngleArrow /&gt; default" name="icons &lt;AngleArrow /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ArrowDown /&gt; default" name="icons &lt;ArrowDown /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ArrowLeft /&gt; default" name="icons &lt;ArrowLeft /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ArrowRight /&gt; default" name="icons &lt;ArrowRight /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;ArrowUp /&gt; default" name="icons &lt;ArrowUp /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Balance /&gt; default" name="icons &lt;Balance /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Bars /&gt; default" name="icons &lt;Bars /&gt; default" time="0.005">
+    </testcase>
+    <testcase classname="icons &lt;Bell /&gt; default" name="icons &lt;Bell /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;Bolt /&gt; default" name="icons &lt;Bolt /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;Bolt /&gt; outline" name="icons &lt;Bolt /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Building /&gt; default" name="icons &lt;Building /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Building /&gt; outline" name="icons &lt;Building /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Calculator /&gt; default" name="icons &lt;Calculator /&gt; default" time="0.005">
+    </testcase>
+    <testcase classname="icons &lt;Calendar /&gt; default" name="icons &lt;Calendar /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CaretDown /&gt; default" name="icons &lt;CaretDown /&gt; default" time="0.006">
+    </testcase>
+    <testcase classname="icons &lt;CaretLeft /&gt; default" name="icons &lt;CaretLeft /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;CaretRight /&gt; default" name="icons &lt;CaretRight /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CaretUp /&gt; default" name="icons &lt;CaretUp /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Check /&gt; default" name="icons &lt;Check /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CheckCircle /&gt; default" name="icons &lt;CheckCircle /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CheckCircle /&gt; outline" name="icons &lt;CheckCircle /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CheckList /&gt; default" name="icons &lt;CheckList /&gt; default" time="0.003">
+    </testcase>
+    <testcase classname="icons &lt;ChevronDown /&gt; default" name="icons &lt;ChevronDown /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;ChevronLeft /&gt; default" name="icons &lt;ChevronLeft /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ChevronRight /&gt; default" name="icons &lt;ChevronRight /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ChevronUp /&gt; default" name="icons &lt;ChevronUp /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;Clipboard /&gt; default" name="icons &lt;Clipboard /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Close /&gt; default" name="icons &lt;Close /&gt; default" time="0.003">
+    </testcase>
+    <testcase classname="icons &lt;Cog /&gt; default" name="icons &lt;Cog /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Cog /&gt; outline" name="icons &lt;Cog /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Collapse /&gt; default" name="icons &lt;Collapse /&gt; default" time="0.003">
+    </testcase>
+    <testcase classname="icons &lt;Column /&gt; default" name="icons &lt;Column /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Config /&gt; default" name="icons &lt;Config /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Config /&gt; outline" name="icons &lt;Config /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Content /&gt; default" name="icons &lt;Content /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;Copy /&gt; default" name="icons &lt;Copy /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Copy /&gt; outline" name="icons &lt;Copy /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;CopyToClipboard /&gt; default" name="icons &lt;CopyToClipboard /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Dashboard /&gt; default" name="icons &lt;Dashboard /&gt; default" time="0.004">
+    </testcase>
+    <testcase classname="icons &lt;Dashboard /&gt; outline" name="icons &lt;Dashboard /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Data /&gt; default" name="icons &lt;Data /&gt; default" time="0.019">
+    </testcase>
+    <testcase classname="icons &lt;Delete /&gt; default" name="icons &lt;Delete /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Delete /&gt; outline" name="icons &lt;Delete /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Details /&gt; default" name="icons &lt;Details /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Divider /&gt; default" name="icons &lt;Divider /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Download /&gt; default" name="icons &lt;Download /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;DragHandle /&gt; default" name="icons &lt;DragHandle /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;DropdownIcon /&gt; default" name="icons &lt;DropdownIcon /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Duplicate /&gt; default" name="icons &lt;Duplicate /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Edit /&gt; default" name="icons &lt;Edit /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Edit /&gt; outline" name="icons &lt;Edit /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;EllipsisHorizontal /&gt; default" name="icons &lt;EllipsisHorizontal /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;EllipsisVertical /&gt; default" name="icons &lt;EllipsisVertical /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Envelope /&gt; default" name="icons &lt;Envelope /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Envelope /&gt; outline" name="icons &lt;Envelope /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;ErrorIcon /&gt; default" name="icons &lt;ErrorIcon /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ErrorIcon /&gt; outline" name="icons &lt;ErrorIcon /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ExclamationCircle /&gt; default" name="icons &lt;ExclamationCircle /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;ExclamationCircle /&gt; outline" name="icons &lt;ExclamationCircle /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ExclamationTriangle /&gt; default" name="icons &lt;ExclamationTriangle /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;ExclamationTriangle /&gt; outline" name="icons &lt;ExclamationTriangle /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Expand /&gt; default" name="icons &lt;Expand /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ExportFile /&gt; default" name="icons &lt;ExportFile /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ExportFile /&gt; outline" name="icons &lt;ExportFile /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Eye /&gt; default" name="icons &lt;Eye /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Eye /&gt; outline" name="icons &lt;Eye /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;File /&gt; default" name="icons &lt;File /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;File /&gt; outline" name="icons &lt;File /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;FileGroup /&gt; default" name="icons &lt;FileGroup /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;FileGroup /&gt; outline" name="icons &lt;FileGroup /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;FileSettings /&gt; default" name="icons &lt;FileSettings /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;FileSettings /&gt; outline" name="icons &lt;FileSettings /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Filter /&gt; default" name="icons &lt;Filter /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Filter /&gt; outline" name="icons &lt;Filter /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Floppy /&gt; default" name="icons &lt;Floppy /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Floppy /&gt; outline" name="icons &lt;Floppy /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Floppy /&gt; badged" name="icons &lt;Floppy /&gt; badged" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Floppy /&gt; outline badged" name="icons &lt;Floppy /&gt; outline badged" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Flow /&gt; default" name="icons &lt;Flow /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Folder /&gt; default" name="icons &lt;Folder /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Folder /&gt; outline" name="icons &lt;Folder /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;FolderOpen /&gt; default" name="icons &lt;FolderOpen /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;FolderOpen /&gt; outline" name="icons &lt;FolderOpen /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Globe /&gt; default" name="icons &lt;Globe /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Globe /&gt; outline" name="icons &lt;Globe /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;GoTo /&gt; default" name="icons &lt;GoTo /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Grid /&gt; default" name="icons &lt;Grid /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Help /&gt; default" name="icons &lt;Help /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Help /&gt; outline" name="icons &lt;Help /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;HelpInfo /&gt; default" name="icons &lt;HelpInfo /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;HelpInfo /&gt; outline" name="icons &lt;HelpInfo /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Home /&gt; default" name="icons &lt;Home /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Horizontal /&gt; default" name="icons &lt;Horizontal /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Image /&gt; default" name="icons &lt;Image /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Image /&gt; outline" name="icons &lt;Image /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ImportFile /&gt; default" name="icons &lt;ImportFile /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ImportFile /&gt; outline" name="icons &lt;ImportFile /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;InfoCircle /&gt; default" name="icons &lt;InfoCircle /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;InfoCircle /&gt; outline" name="icons &lt;InfoCircle /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;InfoStandard /&gt; default" name="icons &lt;InfoStandard /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;InfoStandard /&gt; outline" name="icons &lt;InfoStandard /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Insight /&gt; default" name="icons &lt;Insight /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Lightbulb /&gt; default" name="icons &lt;Lightbulb /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Lightbulb /&gt; outline" name="icons &lt;Lightbulb /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Link /&gt; default" name="icons &lt;Link /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;List /&gt; default" name="icons &lt;List /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;List /&gt; outline" name="icons &lt;List /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Lock /&gt; default" name="icons &lt;Lock /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Lock /&gt; outline" name="icons &lt;Lock /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;LongText /&gt; default" name="icons &lt;LongText /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Menu /&gt; default" name="icons &lt;Menu /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Minus /&gt; default" name="icons &lt;Minus /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;MinusCircle /&gt; default" name="icons &lt;MinusCircle /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;MinusCircle /&gt; outline" name="icons &lt;MinusCircle /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Money /&gt; default" name="icons &lt;Money /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;More /&gt; default" name="icons &lt;More /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Note /&gt; default" name="icons &lt;Note /&gt; default" time="0.003">
+    </testcase>
+    <testcase classname="icons &lt;Note /&gt; outline" name="icons &lt;Note /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Numeric /&gt; default" name="icons &lt;Numeric /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Objects /&gt; default" name="icons &lt;Objects /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Objects /&gt; outline" name="icons &lt;Objects /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Options /&gt; default" name="icons &lt;Options /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Organization /&gt; default" name="icons &lt;Organization /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Organization /&gt; outline" name="icons &lt;Organization /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Pencil /&gt; default" name="icons &lt;Pencil /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Pencil /&gt; outline" name="icons &lt;Pencil /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;People /&gt; default" name="icons &lt;People /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Pergamen /&gt; default" name="icons &lt;Pergamen /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Plus /&gt; default" name="icons &lt;Plus /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;PlusCircle /&gt; default" name="icons &lt;PlusCircle /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;PlusCircle /&gt; outline" name="icons &lt;PlusCircle /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Profile /&gt; default" name="icons &lt;Profile /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Radio /&gt; default" name="icons &lt;Radio /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Remove /&gt; default" name="icons &lt;Remove /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Repeat /&gt; default" name="icons &lt;Repeat /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;RowDensityComfortable /&gt; default" name="icons &lt;RowDensityComfortable /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;RowDensityCompact /&gt; default" name="icons &lt;RowDensityCompact /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Search /&gt; default" name="icons &lt;Search /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Settings /&gt; default" name="icons &lt;Settings /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ShortText /&gt; default" name="icons &lt;ShortText /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;SortAZ /&gt; default" name="icons &lt;SortAZ /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;SortZA /&gt; default" name="icons &lt;SortZA /&gt; default" time="0.002">
+    </testcase>
+    <testcase classname="icons &lt;Sync /&gt; default" name="icons &lt;Sync /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Tasks /&gt; default" name="icons &lt;Tasks /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Tasks /&gt; outline" name="icons &lt;Tasks /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Templates /&gt; default" name="icons &lt;Templates /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Text /&gt; default" name="icons &lt;Text /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Times /&gt; default" name="icons &lt;Times /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Tool /&gt; default" name="icons &lt;Tool /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Tool /&gt; outline" name="icons &lt;Tool /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Trash /&gt; default" name="icons &lt;Trash /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Trash /&gt; outline" name="icons &lt;Trash /&gt; outline" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Undo /&gt; default" name="icons &lt;Undo /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;Unknown /&gt; default" name="icons &lt;Unknown /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Upload /&gt; default" name="icons &lt;Upload /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;User /&gt; default" name="icons &lt;User /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;User /&gt; outline" name="icons &lt;User /&gt; outline" time="0">
+    </testcase>
+    <testcase classname="icons &lt;Vertical /&gt; default" name="icons &lt;Vertical /&gt; default" time="0.005">
+    </testcase>
+    <testcase classname="icons &lt;ViewCards /&gt; default" name="icons &lt;ViewCards /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;ViewColumns /&gt; default" name="icons &lt;ViewColumns /&gt; default" time="0">
+    </testcase>
+    <testcase classname="icons &lt;ViewList /&gt; default" name="icons &lt;ViewList /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;World /&gt; default" name="icons &lt;World /&gt; default" time="0.001">
+    </testcase>
+    <testcase classname="icons &lt;World /&gt; outline" name="icons &lt;World /&gt; outline" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { number } from '@storybook/addon-knobs';
 import { action } from '@storybook/addon-actions';
 import centered from '@storybook/addon-centered/react';
-import withTests from '../../../withTests';
+import withTests from '../../withTests';
 
 import Pagination from './Pagination';
 
