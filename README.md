@@ -3,8 +3,7 @@
 
 UX guidelines, HTML/CSS framework, and React components working together to craft exceptional experiences at beqom.
 
-- [Alto website](https://beqom.github.io/alto)
-- [React Demo](https://beqom.github.io/alto/storybook)
+- [React Demo](https://renaudtertrais.github.io/alto/storybook)
 
 ## Getting started
 
